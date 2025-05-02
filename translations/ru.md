@@ -1,97 +1,97 @@
 <h1 align="center"><a href="https://hacker-laws.com" target="_blank">hacker-laws</a></h1>
-<h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
+<h4 align="center">🧠 Законы, теории, принципы и паттерны, которые полезно знать участникам разработки ИТ-продуктов.</h4>
 
 ---
 
 <!-- vim-markdown-toc GFM -->
 
-- [Introduction](#introduction)
-- [Laws](#laws)
-    - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
-    - [90–90 Rule](#9090-rule)
-    - [Amdahl's Law](#amdahls-law)
-    - [The Broken Windows Theory](#the-broken-windows-theory)
-    - [Brooks' Law](#brooks-law)
-    - [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
-    - [Clarke's three laws](#clarkes-three-laws)
-    - [Conway's Law](#conways-law)
-    - [Cunningham's Law](#cunninghams-law)
-    - [Dunbar's Number](#dunbars-number)
-    - [The Dunning-Kruger Effect](#the-dunning-kruger-effect)
-    - [Fitts' Law](#fitts-law)
-    - [Gall's Law](#galls-law)
-    - [Goodhart's Law](#goodharts-law)
-    - [Hanlon's Razor](#hanlons-razor)
-    - [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
-    - [Hofstadter's Law](#hofstadters-law)
-    - [Hutber's Law](#hutbers-law)
-    - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
-    - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    - [Input-Process-Output (IPO)](#input-process-output-ipo)
-    - [Kernighan's Law](#kernighans-law)
-    - [Koomey's Law](#koomeys-law)
-    - [Linus's Law](#linuss-law)
-    - [Metcalfe's Law](#metcalfes-law)
-    - [Moore's Law](#moores-law)
-    - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
-    - [Occam's Razor](#occams-razor)
-    - [Parkinson's Law](#parkinsons-law)
-    - [Premature Optimization Effect](#premature-optimization-effect)
-    - [Putt's Law](#putts-law)
-    - [Reed's Law](#reeds-law)
-    - [The Bitter Lesson](#the-bitter-lesson)
-    - [The Ringelmann Effect](#the-ringelmann-effect)
-    - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    - [The Law of Demeter](#the-law-of-demeter)
-    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    - [The Law of the Instrument](#the-law-of-the-instrument)
-    - [The Law of Triviality](#the-law-of-triviality)
-    - [The Unix Philosophy](#the-unix-philosophy)
-    - [The Scout Rule](#the-scout-rule)
-    - [The Spotify Model](#the-spotify-model)
-    - [The Two Pizza Rule](#the-two-pizza-rule)
-    - [Twyman's law](#twymans-law)
-    - [Wadler's Law](#wadlers-law)
-    - [Wheaton's Law](#wheatons-law)
-- [Principles](#principles)
-    - [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
-    - [Chesterton's Fence](#chestertons-fence)
-    - [Kerckhoffs's principle](#kerckhoffss-principle)
-    - [The Dead Sea Effect](#the-dead-sea-effect)
-    - [The Dilbert Principle](#the-dilbert-principle)
-    - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    - [The Shirky Principle](#the-shirky-principle)
-    - [The Peter Principle](#the-peter-principle)
-    - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+- [Введение](#введение)
+- [Законы](#законы)
+    - [Принцип 90–9–1 (правило 1%)](#принцип-9091-правило-1)
+    - [Правило 90–90](#правило-9090)
+    - [Закон Амдала](#закон-амдала)
+    - [Теория разбитых окон](#теория-разбитых-окон)
+    - [Закон Брукса](#закон-брукса)
+    - [Теорема CAP / Теорема Брюера](#теорема-cap--теорема-брюера))
+    - [Три закона Кларка](#три-закона-кларка)
+    - [Закон Конвея](#закон-конвея)
+    - [Закон Каннингема](#закон-каннингема)
+    - [Число Данбара](#число-данбара)
+    - [Эффект Даннинга — Крюгера](#эффект-даннинга--крюгера)
+    - [Закон Фиттса](#закон-фиттса)
+    - [Закон Галла](#закон-галла)
+    - [Закон Гудхарта](#закон-гудхарта)
+    - [Бритва Хэнлона](#бритва-хэнлона)
+    - [Закон Хика / Закон Хика — Хаймана)](#закон-хика--закон-хика--хаймана)
+    - [Закон Хофштадтера](#закон-хофштадтера)
+    - [Закон Хатбера](#закон-хатбера)
+    - [Цикл хайпа / Закон Амара](#цикл-хайпа--закон-амара))
+    - [Закон Хайрама / Закон неявных интерфейсов)](#закон-хайрама--закон-неявных-интерфейсов)
+    - [Модель вход-процесс-выход (IPO)](#модель-вход-процесс-выход-ipo))
+    - [Закон Кернигана](#закон-кернигана)
+    - [Закон Куми](#закон-куми)
+    - [Закон Линуса](#закон-линуса)
+    - [Закон Меткалфа](#закон-меткалфа)
+    - [Закон Мура](#закон-мура)
+    - [Закон Мерфи / Закон подлости](#закон-мерфи--закон-подлости)
+    - [Бритва Оккама](#бритва-оккама)
+    - [Закон Паркинсона](#закон-паркинсона)
+    - [Преждевременная оптимизация](#преждевременная-оптимизация)
+    - [Закон Патта](#закон-патта)
+    - [Закон Рида](#закон-рида)
+    - [Горький урок Ричарда Саттона](#горький-урок-ричарда-саттона)
+    - [Эффект Рингельмана](#эффект-рингельмана)
+    - [Закон сохранения сложности / Закон Теслера](#закон-сохранения-сложности--закон-теслера)
+    - [Закон Деметры](#закон-деметры)
+    - [Закон дырявых абстракций](#закон-дырявых-абстракций)
+    - [Закон инструмента / Закон молотка / Золотой молоток / Молоток Маслоу](#закон-инструмента--закон-молотка--золотой-молоток--молоток-маслоу)
+    - [Закон тривиальности](#закон-тривиальности)
+    - [Философия Unix](#философия-unix)
+    - [Правило бойскаута](#правило-бойскаута)
+    - [Модель Spotify](#модель-spotify)
+    - [Правило двух пицц](#правило-двух-пицц)
+    - [Закон Тваймана](#закон-тваймана)
+    - [Закон Уодлера](#закон-уодлера)
+    - [Закон Уитона](#закон-уитона)
+- [Принципы](#принципы)
+    - [Все модели неверны / Закон Джорджа Бокса](#все-модели-неверны--закон-джорджа-бокса)
+    - [Забор Честертона](#забор-честертона)
+    - [Принцип Керкгоффса](#принцип-керкгоффса)
+    - [Эффект Мёртвого моря](#эффект-мёртвого-моря)
+    - [Принцип Дилберта](#принцип-дилберта)
+    - [Закон Парето / Правило 80/20](#закон-парето--правило-8020)
+    - [Принцип Ширки](#принцип-ширки)
+    - [Принцип Питера](#принцип-питера)
+    - [Принцип надежности / Закон Постела](#принцип-надежности--закон-постела)
     - [SOLID](#solid)
-    - [The Single Responsibility Principle](#the-single-responsibility-principle)
-    - [The Open/Closed Principle](#the-openclosed-principle)
-    - [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    - [The Interface Segregation Principle](#the-interface-segregation-principle)
-    - [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    - [The DRY Principle](#the-dry-principle)
-    - [The KISS principle](#the-kiss-principle)
+    - [Принцип единственной ответственности](#принцип-единственной-ответственности)
+    - [Принцип открытости/закрытости](#принцип-открытостизакрытости)
+    - [Принцип подстановки Лисков](#принцип-подстановки-лисков)
+    - [Принцип разделения интерфейса](#принцип-разделения-интерфейса)
+    - [Принцип инверсии зависимостей](#принцип-инверсии-зависимостей)
+    - [DRY / Принцип «не повторяйся»](#dry--принцип-не-повторяйся)
+    - [Принцип KISS](#принцип-kiss)
     - [YAGNI](#yagni)
-    - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
-    - [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
-- [Reading List](#reading-list)
-- [Online Resources](#online-resources)
-- [PDF eBook](#pdf-ebook)
-- [Podcast](#podcast)
+    - [Заблуждения о распределённых вычислениях](#заблуждения-о-распределённых-вычислениях)
+    - [Принцип наименьшего удивления](#принцип-наименьшего-удивления)
+- [Литература](#литература)
+- [Онлайн ресурсы](#онлайн-ресурсы)
+- [PDF версия](#pdf-версия)
+- [Подкаст](#подкаст)
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Введение
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Существует много законов, которые люди обсуждают, говоря о разработке. В этом репозитории собраны ссылки и обзоры наиболее распространённых. Пожалуйста, делитесь им и присылайте PR'ы!
 
-Warning: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+Предупреждение: этот репозиторий содержит объяснения некоторых законов, принципов и паттернов, но не _агитирует_ ни за один из них. Вопрос о том, стоит ли их применять, всегда будет предметом споров, и ответ на него в значительной степени зависит от того, над чем вы работаете.
 
-## Laws
+## Законы
 
-Laws can be opinions on inevitabilities in the world of software engineering, or wry observations on unavoidable realities.
+Законы могут быть как мнениями о неизбежном в мире разработки программного обеспечения так и ироничными замечаниями о неизбежных реалиях.
 
-### 90–9–1 Principle (1% Rule)
+### Принцип 90–9–1 (правило 1%)
 
 [1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
@@ -101,24 +101,24 @@ Real-world examples:
 
 - A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
 
-See Also:
+См. также:
 
-- [Pareto principle](#the-pareto-principle-the-8020-rule)
+- [Закон Парето / Правило 80/20](#закон-парето--правило-8020)
 
-### 90–90 Rule
+### Правило 90–90
 
 [90-90 Rule on Wikipedia](https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule)
 
 > The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
 
-A wry reinterpretation of the [Pareto Principe (or 80-20 rule)](#the-pareto-principle-the-8020-rule) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in [Hofstadter's Law](#hofstadters-law).
+A wry reinterpretation of the [Pareto Principe (or 80-20 rule)](#закон-парето--правило-8020) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in [Hofstadter's Law](#hofstadters-law).
 
-See also:
+См. также:
 
-- [Hofstadter's Law](#hofstadters-law)
-- [The Pareto Principe](#the-pareto-principle-the-8020-rule)
+- [Закон Хофштадтера](#закон-хофштадтера)
+- [Закон Парето / Правило 80/20](#закон-парето--правило-8020)
 
-### Amdahl's Law
+### Закон Амдала
 
 [Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
@@ -133,14 +133,14 @@ The diagram below shows some examples of potential improvements in speed:
 
 As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+As [Moore's Law](#закон-мура) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
 
-See also:
+См. также:
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
+- [Закон Брукса](#закон-брукса)
+- [Закон Мура](#закон-мура)
 
-### The Broken Windows Theory
+### Теория разбитых окон
 
 [The Broken Windows Theory on Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
@@ -148,9 +148,9 @@ The Broken Windows Theory suggests that visible signs of crime (or lack of care 
 
 This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
 
-See also:
+См. также:
 
-- [Technical Debt](#TODO)
+- [Технический долг](#TODO)
 
 Examples:
 
@@ -158,7 +158,7 @@ Examples:
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
 - [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
-### Brooks' Law
+### Закон Брукса
 
 [Brooks' Law on Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
@@ -168,14 +168,14 @@ This law suggests that in many cases, attempting to accelerate the delivery of a
 
 The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
 
-This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+This is a central theme of the book '[The Mythical Man Month](#литература)'.
 
-See also:
+См. также:
 
-- [Death March](#todo)
-- [Reading List: The Mythical Man Month](#reading-list)
+- [Марши смерти](#todo)
+- [Литература: Мифический человеко-месяц](#литература)
 
-### CAP Theorem (Brewer's Theorem)
+### Теорема CAP / Теорема Брюера
 
 The CAP Theorem (defined by Eric Brewer) states that for a distributed data store only two out of the following three guarantees (at most) can be made:
 
@@ -183,7 +183,7 @@ The CAP Theorem (defined by Eric Brewer) states that for a distributed data stor
 - Availability: when reading data, every request receives _a non error response_, without the guarantee that it is the _most recent_ data
 - Partition Tolerance: when an arbitrary number of network requests between nodes fail, the system continues to operate as expected
 
-The core of the reasoning is as follows. It is impossible to guarantee that a network partition will not occur (see [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)). Therefore in the case of a partition we can either cancel the operation (increasing consistency and decreasing availability) or proceed (increasing availability but decreasing consistency).
+The core of the reasoning is as follows. It is impossible to guarantee that a network partition will not occur (see [The Fallacies of Distributed Computing](#заблуждения-о-распределённых-вычислениях)). Therefore in the case of a partition we can either cancel the operation (increasing consistency and decreasing availability) or proceed (increasing availability but decreasing consistency).
 
 The name comes from the first letters of the guarantees (Consistency, Availability, Partition Tolerance). Note that it is very important to be aware that this does _not_ relate to [_ACID_](#TODO), which has a different definition of consistency. More recently, [PACELC](#TODO) theorem has been developed which adds constraints for latency and consistency when the network is _not_ partitioned (i.e. when the system is operating as expected).
 
@@ -193,13 +193,13 @@ Real world examples:
 
 - [Inside Google Cloud Spanner and the CAP Theorem](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - Goes into the details of how Cloud Spanner works, which appears at first to seem like a platform which has _all_ of the guarantees of CAP, but under the hood is essentially a CP system.
 
-See also:
+См. также:
 
 - [ACID](#TODO)
-- [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+- [Заблуждения о распределённых вычислениях](#заблуждения-о-распределённых-вычислениях)
 - [PACELC](#TODO)
 
-### Clarke's three laws
+### Три закона Кларка
 
 [Clarke's three laws on Wikipedia](https://en.wikipedia.org/wiki/Clarke's_three_laws)
 
@@ -212,17 +212,17 @@ These so-called laws are:
 - Any sufficiently advanced technology is indistinguishable from magic.
 
 
-### Conway's Law
+### Закон Конвея
 
 [Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are oriented around features or services, the software systems will also reflect this.
 
-See also:
+См. также:
 
-- [The Spotify Model](#the-spotify-model)
+- [Модель Spotify](#модель-spotify)
 
-### Cunningham's Law
+### Закон Каннингема
 
 [Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
@@ -234,7 +234,7 @@ See also:
 
 - [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
 
-### Dunbar's Number
+### Число Данбара
 
 [Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
@@ -242,12 +242,12 @@ See also:
 
 Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects, we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
 
-See also:
+См. также:
 
-- [Conway's Law](#conways-law)
+- [Закон Конвея](#закон-конвея)
 
 
-### The Dunning-Kruger Effect
+### Эффект Даннинга — Крюгера
 
 [The Dunning-Kruger Effect on Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
@@ -264,7 +264,7 @@ As a person's understanding and experience in a domain grows, they may well enco
 Real-world examples:
 
 
-### Fitts' Law
+### Закон Фиттса
 
 [Fitts' Law on Wikipedia](https://en.wikipedia.org/wiki/Fitts%27s_law)
 
@@ -281,7 +281,7 @@ See also:
 
 - [The information capacity of the human motor system in controlling the amplitude of movement.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
-### Gall's Law
+### Закон Галла
 
 [Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
@@ -293,11 +293,11 @@ Gall's Law implies that attempts to _design_ highly complex systems are likely t
 
 The classic example is the world-wide-web. In its current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
 
-See also:
+См. также:
 
-- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
+- [Принцип KISS (Keep It Simple, Stupid)](#принцип-kiss)
 
-### Goodhart's Law
+### Закон Гудхарта
 
 [The Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
 
@@ -321,7 +321,7 @@ See also:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
-### Hanlon's Razor
+### Бритва Хэнлона
 
 [Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
@@ -331,7 +331,7 @@ See also:
 
 This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
 
-### Hick's Law (Hick-Hyman Law)
+### Закон Хика / Закон Хика — Хаймана
 
 [Hick's law on Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
 
@@ -350,10 +350,11 @@ This is has significant impact in UI design; ensuring that users can easily sear
 
 A correlation has also been shown in Hick's Law between IQ and reaction time as shown in [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369).
 
-See also:
-- [Fitts's Law](#fitts-law)
+См. также:
 
-### Hofstadter's Law
+- [Закон Фиттса](#закон-фиттса)
+
+### Закон Хофштадтера
 
 [Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
@@ -363,13 +364,13 @@ See also:
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#литература)'.
 
-See also:
+См. также:
 
-- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
+- [Литература: Гёдель, Эшер, Бах: эта бесконечная гирлянда](#литература)
 
-### Hutber's Law
+### Закон Хатбера
 
 [Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
@@ -381,7 +382,7 @@ This law suggests that improvements to a system will lead to deterioration in ot
 
 For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, affecting an entirely different sub-system.
 
-### The Hype Cycle & Amara's Law
+### Цикл хайпа / Закон Амара
 
 [The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
@@ -396,7 +397,7 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Закон Хайрама / Закон неявных интерфейсов
 
 [Hyrum's Law Online](http://www.hyrumslaw.com/)
 
@@ -408,12 +409,12 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 > (Hyrum Wright)
 
 
-See also:
+См. также:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Закон дырявых абстракций](#закон-дырявых-абстракций)
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Input-Process-Output (IPO)
+### Модель вход-процесс-выход (IPO)
 
 [Input–Process–Output on Wikipedia](https://en.wikipedia.org/wiki/IPO_model)
 
@@ -425,13 +426,13 @@ Systems can be incredibly complex, but can typically be broken down into smaller
 
 A sort function in a programming language or system could be a classic example of the IPO pattern; where arbitrary input is sorted based on a predicate and returned back. A web server could be modelled as an IPO system, where HTTP requests are transformed into HTTP responses. A highly complex Generative AI system could likewise be modelled in this way, with user input being passed through a complex model and a response being generated.
 
-The IPO pattern is present in different forms across almost all technological domains, from [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages that explicitly follow IPO patterns to [The Unix Philosophy](#the-unix-philosophy), which suggests that highly complex systems can be built by chaining together many simple IPO programs.
+The IPO pattern is present in different forms across almost all technological domains, from [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages that explicitly follow IPO patterns to [The Unix Philosophy](#философия-unix), which suggests that highly complex systems can be built by chaining together many simple IPO programs.
 
-See also:
+См. также:
 
-- [The Unix Philosophy](#the-unix-philosophy)
+- [Философия Unix](#философия-unix)
 
-### Kernighan's Law
+### Закон Кернигана
 
 > Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
 >
@@ -443,13 +444,13 @@ Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Bri
 
 While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
 
-See also:
+См. также:
 
-- [The KISS Principle](#the-kiss-principle)
-- [The Unix Philosophy](#the-unix-philosophy)
-- [Occam's Razor](#occams-razor)
+- [Принцип KISS](#принцип-kiss)
+- [Философия Unix](#философия-unix)
+- [Бритва Оккама](#бритва-оккама)
 
-### Koomey's Law
+### Закон Куми
 
 [Koomey's Law on Wikipedia](https://en.wikipedia.org/wiki/Koomey%27s_law)
 
@@ -459,14 +460,14 @@ See also:
 
 In 2010 Professor Jonathan Koomey discovered that the trend in number of computations per joule of energy dissipated had been remarkably stable. This trend became known as Koomey's Law - that the amount of battery needed for a given computing load would half each 2.5 years.
 
-Koomey performed a follow-up analysis in 2010 and found that this trend had slowed, similar to how [Moore's Law](#moores-law) had slowed. This seemed to be related to limitations around how small transistors can be made, as well as [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling).
+Koomey performed a follow-up analysis in 2010 and found that this trend had slowed, similar to how [Moore's Law](#закон-мура) had slowed. This seemed to be related to limitations around how small transistors can be made, as well as [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling).
 
-See also:
+См. также:
 
-- [Moore's Law](#moores-law)
+- [Закон Мура](#закон-мура)
 - [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling)
 
-### Linus's Law
+### Закон Линуса
 
 [Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
 
@@ -484,19 +485,20 @@ A more formal statement can be:
 
 This law was named in honour of [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in Eric S. Raymond's book "[The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)".
 
-### Metcalfe's Law
+### Закон Меткалфа
 
 [Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
 
 > In network theory, the value of a system grows as approximately the square of the number of users of the system.
 
-This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#reeds-law). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#закон-рида). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#число-данбара).
 
-See also:
-- [Reed's Law](#reeds-law)
-- [Dunbar's Number](#dunbars-number)
+См. также:
 
-### Moore's Law
+- [Закон Рида](#закон-рида)
+- [Число Данбара](#число-данбара)
+
+### Закон Мура
 
 [Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
 
@@ -504,11 +506,11 @@ See also:
 
 Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
 
-See also:
+См. также:
 
-- [Koomey's Law](#koomeys-law)
+- [Закон Куми](#закон-куми)
 
-### Murphy's Law / Sod's Law
+### Закон Мерфи / Закон подлости
 
 [Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
 
@@ -522,12 +524,12 @@ This is a common adage among developers. Sometimes the unexpected happens when d
 
 These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
 
-See Also:
+См. также:
 
-- [Confirmation Bias](#TODO)
-- [Selection Bias](#TODO)
+- [Предвзятость подтверждения](#TODO)
+- [Систематическая ошибка отбора](#TODO)
 
-### Occam's Razor
+### Бритва Оккама
 
 [Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
 
@@ -546,7 +548,7 @@ Example:
 
 - [Lean Software Development: Eliminate Waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
-### Parkinson's Law
+### Закон Паркинсона
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
@@ -555,11 +557,11 @@ Example:
 In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
 
 
-See also:
+См. также:
 
-- [Hofstadter's Law](#hofstadters-law)
+- [Закон Хофштадтера](#закон-хофштадтера)
 
-### Premature Optimization Effect
+### Преждевременная оптимизация
 
 [Premature Optimization on WikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
@@ -570,7 +572,7 @@ See also:
 
 However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
 
-### Putt's Law
+### Закон Патта
 
 [Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
@@ -580,28 +582,29 @@ Putt's Law is often followed by Putt's Corollary:
 
 > Every technical hierarchy, in time, develops a competence inversion.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#the-peter-principle) or [The Dilbert Principle](#the-dilbert-principle).
+These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#принцип-питера) or [The Dilbert Principle](#принцип-дилберта).
 
 However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
 
-See also:
+См. также:
 
-- [The Peter Principle](#the-peter-principle)
-- [The Dilbert Principle](#the-dilbert-principle)
+- [Принцип Питера](#принцип-питера)
+- [Принцип Дилберта](#принцип-дилберта)
 
-### Reed's Law
+### Закон Рида
 
 [Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
 
 > The utility of large networks, particularly social networks, scales exponentially with the size of the network.
 
-This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#число-данбара).
 
-See also:
-- [Metcalfe's Law](#metcalfes-law)
-- [Dunbar's Number](#dunbars-number)
+См. также:
 
-### The Bitter Lesson
+- [Закон Меткалфа](#закон-меткалфа)
+- [Число Данбара](#число-данбара)
+
+### Горький урок Ричарда Саттона
 
 [The Bitter Lesson by Richard S. Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
@@ -613,16 +616,17 @@ The "Bitter Lesson", stated by [Rich S. Sutton](https://en.wikipedia.org/wiki/Ri
 
 He goes on to suggest that this indicates we should stop trying to build simplified (or even complex) models of the mind as history has shown that these have always in the long term been failures compared to (as an example) scaling the capacity of neural networks and applying existing methods such as convolution.
 
-### The Ringelmann Effect
+### Эффект Рингельмана
 
 [The Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
 
 The Ringelmann Effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including loss of motivation ("[social loafing](https://en.wikipedia.org/wiki/Social_loafing)") and challenges related to coordination.
 
-See also:
-- [Brooks' Law](#brooks-law)
+См. также:
 
-### The Law of Conservation of Complexity (Tesler's Law)
+- [Закон Брукса](#закон-брукса)
+
+### Закон сохранения сложности / Закон Теслера
 
 [The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
@@ -632,7 +636,7 @@ Some complexity in a system is 'inadvertent'. It is a consequence of poor struct
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
 
-### The Law of Demeter
+### Закон Деметры
 
 [The Law of Demeter on Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
@@ -644,7 +648,7 @@ It states that a unit of software should talk only to its immediate collaborator
 
 Following this principal limits the scope of changes, making them easier and safer in future.
 
-### The Law of Leaky Abstractions
+### Закон дырявых абстракций
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
@@ -659,15 +663,15 @@ The example above can become more complex when _more_ abstractions are introduce
 
 The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
 
-See also:
+См. также:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Закон Хайрама / Закон неявных интерфейсов)](#закон-хайрама--закон-неявных-интерфейсов)
 
 Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
-### The Law of the Instrument
+### Закон инструмента / Закон молотка / Золотой молоток / Молоток Маслоу
 
 [The Law of the Instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)
 
@@ -686,7 +690,7 @@ See also:
 - [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument/)
 - [Anti-Pattern - The Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
 
-### The Law of Triviality
+### Закон тривиальности
 
 [The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
@@ -696,7 +700,7 @@ The common fictional example used is that of a committee approving plans for nuc
 
 The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details. A related term is '[Yak Shaving](https://en.wiktionary.org/wiki/yak_shaving),' which connotes a seemingly irrelevant activity that is part of a long chain of prerequisites to the main task.
 
-### The Unix Philosophy
+### Философия Unix
 
 [The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
 
@@ -704,7 +708,7 @@ The Unix Philosophy is that software components should be small, and focused on 
 
 Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
 
-### The Scout Rule
+### Правило бойскаута
 
 [The Scout Rule on O'Reilly](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 
@@ -714,17 +718,17 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 Based on the "Scout Rule", which is "always leave the campground cleaner than you found it", the Scout Rule in programming is simply "always leave the code cleaner than you found it".
 
-This was introduced in the first chapter of the book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Bob Martin. The rule suggests that developers should perform 'optimistic refactoring', which means to endeavour to improve the overall quality of the code when you work on it. If you see a mistake, attempt to fix it or clean it up. However, when making changes to code which seems incorrect, it may be worth remembering [Chesterton's Fence](#chestertons-fence)!
+This was introduced in the first chapter of the book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Bob Martin. The rule suggests that developers should perform 'optimistic refactoring', which means to endeavour to improve the overall quality of the code when you work on it. If you see a mistake, attempt to fix it or clean it up. However, when making changes to code which seems incorrect, it may be worth remembering [Chesterton's Fence](#забор-честертона)!
 
-See also:
+См. также:
 
-- [Reading List: Clean Code](#reading-list)
-- [Chesterton's Fence](#chestertons-fence)
-- [The Broken Windows Theory](#broken-windows-theory)
+- [Литература: Чистый код. Создание, анализ и рефакторинг](#литература)
+- [Забор Честертона](#забор-честертона)
+- [Теория разбитых окон](#теория-разбитых-окон)
 
 https://www.amazon.sg/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 
-### The Spotify Model
+### Модель Spotify
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
@@ -734,7 +738,7 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 
 Members of the organisation have described that the actual meaning of these groups changes, evolves and is an on-going experiment. The fact that the model is a _process in motion_, rather than a fixed model continues to lead to varying interpretations of the structure, which may be based on presentations given by employees at conferences. This means 'snapshots' may be 're-packaged' by third parties as a _fixed structure_, with the fact that the model is dynamic being lost.
 
-### The Two Pizza Rule
+### Правило двух пицц
 
 > If you can't feed a team with two pizzas, it's too large.
 >
@@ -746,7 +750,7 @@ The number of links between people can be expressed as `n(n-1)/2` where n = numb
 
 <img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
 
-### Twyman's law
+### Закон Тваймана
 
 [Twyman's Law on Wikipedia](https://en.wikipedia.org/wiki/Twyman%27s_law)
 
@@ -754,11 +758,11 @@ The number of links between people can be expressed as `n(n-1)/2` where n = numb
 
 This law suggests that when there are particularly unusual data points, it is more likely that they are the result of errors or manipulation. For example, if a dataset of long-jump results from a sporting event showed a maximum value of 20 meters (more than twice the world record), it is more likely to be due to an error (such as recording a value in feet rather than meters) than due to an unusually long jump. It is also more likely in this case that the results could have been manipulated.
 
-See also:
+См. также:
 
-- [Sagan Standard](#TODO)
+- [Стандарт Сагана](#TODO)
 
-### Wadler's Law
+### Закон Уодлера
 
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
@@ -771,13 +775,13 @@ See also:
 >
 > (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Similar to [The Law of Triviality](#закон-тривиальности), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
 
-See also:
+См. также:
 
-- [The Law of Triviality](#the-law-of-triviality)
+- [Закон тривиальности](#закон-тривиальности)
 
-### Wheaton's Law
+### Закон Уитона
 
 [The Link](http://www.wheatonslaw.com/)
 
@@ -789,11 +793,11 @@ See also:
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
-## Principles
+## Принципы
 
-Principles are generally more likely to be guidelines relating to design.
+Принципы, как правило, представляют собой рекомендации, касающиеся дизайна.
 
-### All Models Are Wrong (George Box's Law)
+### Все модели неверны / Закон Джорджа Бокса
 
 [All Models Are Wrong](https://en.wikipedia.org/wiki/All_models_are_wrong)
 
@@ -805,11 +809,11 @@ This principle suggests that all models of systems are flawed, but that as long 
 
 A fundamental requirement of most software is to model a system of some kind. Regardless of whether the system being modeled is a computer network, a library, a graph of social connections or any other kind of system, the designer will have to decide an appropriate level of detail to model. Excessive detail may lead to too much complexity, too little detail may prevent the model from being functional.
 
-See also:
+См. также:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Закон дырявых абстракций](#закон-дырявых-абстракций)
 
-### Chesterton's Fence
+### Забор Честертона
 
 [Chesterton's Fence on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
 
@@ -819,7 +823,7 @@ This principle is relevant in software engineering when removing technical debt.
 
 The name of this principle comes from a story by [G.K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
 
-### Kerckhoffs's principle
+### Принцип Керкгоффса
 
 [Kerckhoffs's principle on Wikipedia](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
 
@@ -833,9 +837,11 @@ The gold standard for any secret-keeping system is that implementation details s
 
 The history of cryptography has shown that open discussion and analysis of cryptographic systems leads to better and more secure systems - as researchers are able to test for and expose potential vulnerabilities.
 
-- [Shannon's Maxim](#todo)
+См. также:
 
-### The Dead Sea Effect
+- [Максима Шеннона / Принципом Керкгоффса](#todo)
+
+### Эффект Мёртвого моря
 
 [The Dead Sea Effect on Bruce F. Webster](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
 
@@ -847,7 +853,7 @@ The "Dead Sea Effect" suggests that in any organisation, the skills/talent/effic
 
 Typically, highly skilled engineers find it easy to gain employment elsewhere and are the first to do so. Engineers who have obsolete or weak skills will tend to remain with the company, as finding employment elsewhere is difficult. This is particularly pronounced if they have gained incremental pay rises over their time in the company, as it can be challenging to get equivalent remuneration elsewhere.
 
-### The Dilbert Principle
+### Принцип Дилберта
 
 [The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
 
@@ -855,14 +861,14 @@ Typically, highly skilled engineers find it easy to gain employment elsewhere an
 >
 > _Scott Adams_
 
-A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
+A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#принцип-питера). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#литература).
 
-See Also:
+См. также:
 
-- [The Peter Principle](#the-peter-principle)
-- [Putt's Law](#putts-law)
+- [Принцип Питера](#принцип-питера)
+- [Закон Патта](#закон-патта)
 
-### The Pareto Principle (The 80/20 Rule)
+### Закон Парето / Правило 80/20
 
 [The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
@@ -884,7 +890,7 @@ Real-world examples:
 
 - In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
-### The Shirky Principle
+### Принцип Ширки
 
 [The Shirky Principle explained](https://kk.org/thetechnium/the-shirky-prin/)
 
@@ -899,11 +905,11 @@ Related to:
 - Upton Sinclair's famous line, _"It is difficult to get a man to understand something, when his salary depends upon his not understanding it!"_
 - Clay Christensen's _The Innovator's Dilemma_
 
-See also:
+См. также:
 
-- [Pareto Principle](#the-pareto-principle-the-8020-rule)
+- [Закон Парето / Правило 80/20](#закон-парето--правило-8020)
 
-### The Peter Principle
+### Принцип Питера
 
 [The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
 
@@ -915,12 +921,12 @@ A management concept developed by Laurence J. Peter, the Peter Principle observe
 
 This is of particular interest to engineers - who initially start out in deeply technical roles, but often have a career path which leads to _managing_ other engineers - which requires a fundamentally different skill set.
 
-See Also:
+См. также:
 
-- [The Dilbert Principle](#the-dilbert-principle)
-- [Putt's Law](#putts-law)
+- [Принцип Дилберта](#принцип-дилберта)
+- [Закон Патта](#закон-патта)
 
-### The Robustness Principle (Postel's Law)
+### Принцип надежности / Закон Постела
 
 [The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
 
@@ -932,9 +938,9 @@ The goal of this principle is to build systems which are robust, as they can han
 
 Allowing non-conformant input, in time, may undermine the ability of protocols to evolve as implementors will eventually rely on this liberality to build their features.
 
-See Also:
+См. также:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Закон Хайрама / Закон неявных интерфейсов)](#закон-хайрама--закон-неявных-интерфейсов)
 
 ### SOLID
 
@@ -943,7 +949,7 @@ This is an acronym, which refers to:
 
 These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
 
-### The Single Responsibility Principle
+### Принцип единственной ответственности
 
 [The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
@@ -953,12 +959,12 @@ The first of the '[SOLID](#solid)' principles. This principle suggests that modu
 
 Theoretically, this should make the code more robust, and easier to change. Knowing that a component being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
 
-See also:
+См. также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
-### The Open/Closed Principle
+### Принцип открытости/закрытости
 
 [The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
@@ -970,12 +976,12 @@ As a hypothetical example, imagine a module which is able to turn a Markdown doc
 
 This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
 
-See also:
+См. также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
-### The Liskov Substitution Principle
+### Принцип подстановки Лисков
 
 [The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
@@ -987,12 +993,12 @@ As an example, imagine we have a method which reads an XML document from a struc
 
 This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
 
-See also:
+См. также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
-### The Interface Segregation Principle
+### Принцип разделения интерфейса
 
 [The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
@@ -1004,14 +1010,14 @@ As an example, imagine we have a method which reads an XML document from a struc
 
 This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
 
-See also:
+См. также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
-- [Duck Typing](#todo)
-- [Decoupling](#todo)
+- [Утиная типизация](#todo)
+- [Развязка](#todo)
 
-### The Dependency Inversion Principle
+### Принцип инверсии зависимостей
 
 [The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
@@ -1023,14 +1029,14 @@ As an example, imagine we have a program which read metadata from a website. We 
 
 This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
 
-See also:
+См. также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
-- [Inversion of Control](#todo)
-- [Dependency Injection](#todo)
+- [Инверсия управления](#todo)
+- [Внедрение зависимости](#todo)
 
-### The DRY Principle
+### DRY / Принцип «не повторяйся»
 
 [The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
@@ -1046,7 +1052,7 @@ See also:
 
 - [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-### The KISS principle
+### Принцип KISS
 
 [KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
@@ -1056,9 +1062,9 @@ The KISS principle states that most systems work best if they are kept simple ra
 
 The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves.
 
-See also:
+См. также:
 
-- [Gall's Law](#galls-law)
+- [Закон Галла](#закон-галла)
 
 ### YAGNI
 
@@ -1073,11 +1079,11 @@ This _Extreme Programming_ (XP) principle suggests developers should only implem
 
 Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
 
-See also:
+См. также:
 
-- [Reading List: Extreme Programming Installed](#reading-list)
+- [Литература: Extreme Programming Installed](#литература)
 
-### The Fallacies of Distributed Computing
+### Заблуждения о распределённых вычислениях
 
 [The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
@@ -1103,7 +1109,7 @@ See also:
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 
-### The Principle of Least Astonishment
+### Принцип наименьшего удивления
 
 [The Principle of Least Astonishment on Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
@@ -1115,38 +1121,39 @@ This principle proposes that systems and interfaces should be designed in a way 
 
 Many examples are present in user interfaces, such as a 'pull down' gesture on a mobile appliation to refresh content. Another example would be command line tools, where many standards exist for how parameters are named, common parameters that should be available and so on.
 
-See also:
+См. также:
 
-- [Convention Over Configuration](#todo)
+- [Соглашения по конфигурации](#todo)
 
-## Reading List
+## Литература
 
-If you have found these concepts interesting, you may enjoy the following books.
+Если эти концепции показались вам интересными, вам могут понравиться следующие книги.
 
-- [Clean Code - Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code) - One of the most well respected books on how to write clean, maintainable code.
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
-- [Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman](https://www.goodreads.com/book/show/43713) - If you were a comp sci or electical engineering student at MIT or Cambridge this was your intro to programming. Widely reported as being a turning point in people's lives.
-- [The Cathedral and the Bazaar - Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) - a collection of essays on open source. This book was the source of [Linus's Law](#linuss-law).
-- [The Dilbert Principle - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principle).
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
-- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
+- [Чистый код. Создание, анализ и рефакторинг - Роберт Мартин](https://www.piter.com/product/chistyy-kod-sozdanie-analiz-i-refaktoring-biblioteka-programmista-45ccca) - Одна из самых уважаемых книг о том, как писать чистый и удобный для поддержки код.
+- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson (en)](https://www.goodreads.com/en/book/show/67834) - Охватывает основные принципы экстремального программирования.
+- [Гёдель, Эшер, Бах: эта бесконечная гирлянда - Дуглас Хофштадтер](https://www.livelib.ru/book/1000005849-gedel-esher-bah-eta-beskonechnaya-girlyanda-daglas-hofshtadter) - Эту книгу трудно классифицировать. [Закон Хофштадтера](#закон-хофштадтера) из этой книги.
+- [Структура и Интерпретация Компьютерных Программ - Харольд Абельсон, Джеральд Джей Сассман, Джули Сассман](https://www.livelib.ru/book/1000799728-struktura-i-interpretatsiya-kompyuternyh-programm-dzhuli-sassman) - Если вы были студентом факультета компьютерных наук или электротехники в Массачусетском технологическом институте или Кембридже, это было вашим введением в программирование. Широко известно, что это был поворотный момент в жизни многих людей.
+- [Собор и Базар - Эрик Стивен Реймонд](https://www.livelib.ru/work/1000216789-sobor-i-bazar-erik-s-rejmond) - Сборник эссе об открытом исходном коде. [Закон Линуса](#закон-линуса) из этой книги.
+- [The Dilbert Principle - Scott Adams (en)](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Юмористический взгляд на корпоративную Америку от автора [принципа Дилберта](#принцип-дилберта).
+- [Мифический человеко-месяц, или Как создаются программные системы - Фредерик Брукс мл.](https://www.piter.com/product/mificheskiy-cheloveko-mesyats-ili-kak-sozdayutsya-programmnye-sistemy) - Классический труд по программной инженерии. [Закон Брукса](#закон-брукса) является центральной темой книги.
+- [Принцип Питера, или Почему дела всегда идут вкривь и вкось - Лоуренс Джонстон Питер, Реймонд Халл](https://azbooka.ru/books/printsip-pitera-ili-pochemy-dela-vsegda-idyt-vkriv-i-vkos) - Еще один юмористический взгляд на проблемы крупных организаций и управления людьми, источник принципа [Принцип Питера](#принцип-питера).
 
-## Online Resources
+## Онлайн ресурсы
 
-Some useful resources and reading.
+Некоторые полезные ресурсы и материалы для чтения.
 
-- [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, & More](https://www.cbinsights.com/research/report/tech-laws-success-failure) - an interesting write up of some laws which have been highly influential in technology.
+- [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, & More (en)](https://www.cbinsights.com/research/report/tech-laws-success-failure) - интересное описание некоторых законов, оказавших большое влияние на технологии.
 
-## PDF eBook
+## PDF версия
 
-The project is available as a PDF eBook, [download the latest PDF eBook with this link](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) or check the [release](https://github.com/dwmkerr/hacker-laws/releases) page for older versions.
+Проект доступен в виде электронной книги в формате PDF. [Загрузите последнюю версию электронной книги в формате PDF по этой ссылке](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) или проверьте страницу [релиза](https://github.com/dwmkerr/hacker-laws/releases) для более ранних версий.
 
-A new version of the eBook is created automatically when a new version tag is pushed.
+Новая версия электронной книги создается автоматически при добавлении тега новой версии.
 
-## Podcast
+## Подкаст
 
-Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/403), you can check out the Podcast episode with the link below:
+Hacker Laws был представлен в подкасте [The Changelog](https://changelog.com/podcast/403).
+Вы можете ознакомиться с эпизодом по ссылке ниже:
 
 <a href="https://changelog.com/podcast/403" target="_blank"><img src="./images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
 
