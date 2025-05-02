@@ -120,20 +120,19 @@
 
 ### Закон Амдала
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Закон Амдала на Википедии](https://ru.wikipedia.org/wiki/Закон_Амдала)
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> Закон Амдаля — это формула, демонстрирующая _потенциал ускорения_ вычислительной задачи, которого можно достичь при увеличении количества ресурсов системы. Обычно он используется в параллельных вычислениях, и может предсказать наличие реальных преимуществ от увеличения числа процессоров с учётом ограничений распараллеливания программы.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+Для наглядности рассмотрим на примере. Если программа состоит из двух частей: части A, которая должна выполняться одним процессором, и части B, которая может выполняться параллельно, то мы увидим, что добавление нескольких процессоров в систему, выполняющую программу, может иметь лишь ограниченное преимущество. Потенциально, это может значительно ускорить часть Б, при этом скорость части А не изменится.
 
-The diagram below shows some examples of potential improvements in speed:
+Диаграмма ниже демонстрирует примеры потенциального увеличения скорости:
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
+<img width="480px" alt="Diagram: Amdahl's Law" src="../images/ru/amdahls_law.svg" />
 
+Как можно видеть, программа с возможностью распараллеливания на 50% принесет очень мало пользы при использовании 10 процессоров, тогда как программа с возможностью распараллеливания на 95% может достичь значительного повышения скорости при использовании более тысячи процессоров.
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
-
-As [Moore's Law](#закон-мура) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+Поскольку [закон Мура](#закон-мура) и ускорение отдельных процессов замедляется, параллелизация становится ключом к повышению производительности. Программирование графики является прекрасным примером — с современными вычислениями на основе шейдеров отдельные пиксели или фрагменты могут отрисовываться параллельно — вот почему современные графические карты часто имеют много тысяч процессорных ядер (графических процессоров или шейдерных блоков).
 
 См. также:
 
