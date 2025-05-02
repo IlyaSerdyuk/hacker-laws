@@ -107,11 +107,11 @@
 
 ### Правило 90–90
 
-[90-90 Rule on Wikipedia](https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule)
+[Правило 90–90 на Википедии (en)](https://en.wikipedia.org/wiki/Ninety–ninety_rule)
 
-> The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
+> На первые 90% кода уходят первые 90% времени разработки. На оставшиеся 10% — остальные 90% времени.
 
-A wry reinterpretation of the [Pareto Principe (or 80-20 rule)](#закон-парето--правило-8020) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in [Hofstadter's Law](#hofstadters-law).
+Ироничная интерпретация [принципа Парето](#закон-парето--правило-8020), которая подчеркивает реальные проблемы завершения инженерных работ. Это мнение также отражено в [законе Хофштадтера](#закон-хофштадтера).
 
 См. также:
 
