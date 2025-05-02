@@ -93,13 +93,13 @@
 
 ### Принцип 90–9–1 (правило 1%)
 
-[1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
+[Правило одного процента на Википедии](https://ru.wikipedia.org/wiki/Правило_одного_процента)
 
-The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
+Правило описывает неравномерность участия интернет-аудитории в создании содержимого: 90% участников только потребляют контент, 9% редактируют или изменяют контент и только 1% участников создает контент.
 
-Real-world examples:
+Примеры из жизни:
 
-- A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
+- Исследование четырех социальных сетей в сфере здравоохранения, проведенное в 2014 году, показало, что 1% самых популярных пользователей создали 73% публикаций, на следующие 9% пришлось в среднем около 25%, а на оставшиеся 90% пришлось в среднем 2%. ([Источник (en)](https://www.jmir.org/2014/2/e33))
 
 См. также:
 
