@@ -141,11 +141,11 @@
 
 ### Теория разбитых окон
 
-[The Broken Windows Theory on Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
+[Теория разбитых окон на Википедии](https://ru.wikipedia.org/wiki/Теория_разбитых_окон)
 
-The Broken Windows Theory suggests that visible signs of crime (or lack of care of an environment) lead to further and more serious crimes (or further deterioration of the environment).
+Теория утверждает, что видимые признаки преступления (или отсутствия заботы об окружающей среде) приводят к дальнейшим и более серьезным преступлениям (или дальнейшему ухудшению состояния окружающей среды).
 
-This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
+Эту теорию применяли к разработке ПО, предполагая, что плохое качество кода ([технический долг](#TODO)) может вызвать ощущение того, что все попытки улучшить качество будут проигнорированы или недооценены, что приведёт к появлению нового плохого кода. Этот эффект развивается каскадно, что со временем приводит к значительному снижению качества.
 
 См. также:
 
