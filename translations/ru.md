@@ -249,20 +249,17 @@
 
 ### Эффект Даннинга — Крюгера
 
-[The Dunning-Kruger Effect on Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+[Эффект Даннинга — Крюгера на Википедии](https://ru.wikipedia.org/wiki/Эффект_Даннинга_—_Крюгера)
 
-> If you're incompetent, you can't know you're incompetent... The skills you need to produce a right answer are exactly the skills you need to recognize what a right answer is.
+> Если вы некомпетентны, вы не можете знать об этом... Навыки, необходимые для получения правильного ответа, — это именно те навыки, которые вам нужны для распознавания правильного ответа.
 >
-> ([David Dunning](https://en.wikipedia.org/wiki/David_Dunning))
+> _[Дэвид Даннинг](https://ru.wikipedia.org/wiki/Даннинг,_Дэвид)_
 
-The Dunning–Kruger effect is a theoretical cognitive bias which was described by David Dunning and Justin Kruger in a 1999 psychological study and paper. The study suggests that people with a low level of ability at a task are likely to overestimate their ability of the task. The proposed reason for this bias is that a sufficient _awareness_ of the complexity of a problem or domain is required for a person to be able to make an informed opinion of their capability to work in that domain.
+Эффект представляет собой теоретическую когнитивную ошибку, описанную Дэвидом Даннингом и Джастином Крюгером в психологическом исследовании и статье 1999 года. Исследование показывает, что люди с низким уровнем компетентности в определённой задаче склонны переоценивать свои способности в ней. Предполагаемая причина этой ошибки заключается в том, что для формирования обоснованного мнения о своей способности работать в определённой области человеку необходимо достаточное _осознание_ сложности проблемы или самой области.
 
-The Dunning-Kruger effect has sometimes been used to describe a related, but not necessarily implied effect which could be described as "The less a person understands a domain, the more they are likely to believe they can easily solve problems in that domain, as they are more likely to see the domain as _simple_". This more general effect is highly relevant in technology. It would suggest that people who are less familiar with a domain, such as non-technical team members or less experienced team members, are more likely to _underestimate_ the effort required to solve a problem in this space.
+Эффект Даннинга — Крюгера иногда используется для описания связанного, но не всегда прямо подразумеваемого явления, которое можно сформулировать так: «Чем меньше человек понимает область, тем больше он склонен считать, что легко решит задачи в ней, воспринимая эту область как _простую_». Этот более общий эффект особенно актуален в технологической сфере. Он предполагает, что люди, слабо знакомые с областью, например, нетехнические члены команды или менее опытные сотрудники, чаще склонны _недооценивать_ усилия, необходимые для решения проблем в этой сфере.
 
-As a person's understanding and experience in a domain grows, they may well encounter another effect, which is that they tend to _overestimate_ the ability of _others_ or _underestimate_ their own ability, as they are have become so experienced in the domain. In all cases these effects are _cognitive biases_. As with any bias, an understanding that it may be present will often be sufficient to help avoid the challenges — as when there is awareness of a bias, more inputs and opinions can be included to attempt to eliminate these biases. A closely related bias is that of [Illusory superiority](https://en.wikipedia.org/wiki/Illusory_superiority).
-
-Real-world examples:
-
+По мере роста понимания и опыта человека в области может проявиться другой эффект: он начинает _переоценивать_ способности _других_ или _недооценивать_ свои собственные, поскольку становится настолько опытным, что теряет объективность. Во всех случаях эти явления являются _когнитивными искажениями_. Как и с любыми искажениями, осознание их существования часто помогает избежать связанных с ними сложностей — зная о предвзятости, можно привлечь дополнительные мнения и данные, чтобы нивелировать её. Близким по смыслу искажением является [Иллюзорное превосходство](https://ru.wikipedia.org/wiki/Иллюзорное_превосходство).
 
 ### Закон Фиттса
 
