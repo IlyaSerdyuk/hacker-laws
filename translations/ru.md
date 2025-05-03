@@ -263,20 +263,20 @@
 
 ### Закон Фиттса
 
-[Fitts' Law on Wikipedia](https://en.wikipedia.org/wiki/Fitts%27s_law)
+[Закон Фиттса на Википедии](https://ru.wikipedia.org/wiki/Закон_Фиттса)
 
-Fitts' law predicts that the time required to move to a target area is a function of the distance to the target divided by the width of the target.
+Закон утверждает, что время движения к цели прямо пропорционально расстоянию до цели, и обратно пропорционально ширине цели.
 
-<img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
+<img width="300px" alt="Диаграмма: Закон Фиттса" src="../images/ru/Fitts_Law.svg" />
 
 
-The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible. This has consequences on design, such as grouping tasks that are commonly used with one another close.
+Из закона следует, что при при проектировании пользовательского опыта (UX) или интерфейса (UI) интерактивные элементы должны быть как можно больше, а расстояние между областью внимания пользователя и такими элементами — как можно меньше. Это влияет на дизайнерские решения, например, требует группировать часто используемые вместе задачи и располагать их рядом.
 
-It also formalises the concept of 'magic corners', the corners of the screen to which a user can 'sweep' their mouse to easily hit - which is where key UI elements can be placed. The Windows Start button is in a magic corner, making it easy to select, and as an interesting contrast, the MacOS 'close window' button is _not_ in a magic corner, making it hard to hit by mistake.
+Также он формализует концепцию «волшебных углов» — углов экрана, в которые пользователь может «переместить» курсор мыши для быстрого доступа к элементам интерфейса. Именно в таких зонах рекомендуется размещать ключевые UI-элементы. Например, кнопка «Пуск» в Windows находится в «волшебном углу», что облегчает её выбор. Что интересно, в отличие от этого, кнопка закрытия окна в macOS _не_ расположена в таком углу, что снижает вероятность случайного нажатия.
 
-See also:
+См. также:
 
-- [The information capacity of the human motor system in controlling the amplitude of movement.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
+- [The information capacity of the human motor system in controlling the amplitude of movement (en)](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
 ### Закон Галла
 
