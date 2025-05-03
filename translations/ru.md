@@ -202,16 +202,15 @@
 
 ### Три закона Кларка
 
-[Clarke's three laws on Wikipedia](https://en.wikipedia.org/wiki/Clarke's_three_laws)
+[Три закона Кларка на Википедии](https://ru.wikipedia.org/wiki/Три_закона_Кларка)
 
-Arthur C. Clarke, an british science fiction writer, formulated three adages that are known as Clarke's three laws. The third law is the best known and most widely cited.  
+Артур Кларк, британский писатель-фантаст, сформулировал три афоризма, известные как три закона Кларка. Третий закон является наиболее известным и часто цитируемым.
 
-These so-called laws are:
+Ниже приведены эти законы:
 
-- When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong.
-- The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
-- Any sufficiently advanced technology is indistinguishable from magic.
-
+- Когда уважаемый, но пожилой учёный утверждает, что что-то возможно, то он почти наверняка прав. Когда он утверждает, что что-то невозможно, — он, весьма вероятно, ошибается.
+- Единственный способ обнаружения пределов возможного состоит в том, чтобы отважиться шагнуть немного дальше — в невозможное.
+- Любая достаточно развитая технология неотличима от магии.
 
 ### Закон Конвея
 
