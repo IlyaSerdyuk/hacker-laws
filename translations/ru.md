@@ -280,15 +280,15 @@
 
 ### Закон Галла
 
-[Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+[Закон Галла на Википедии (en)](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+> Работающая сложная система свегда происходит из работавшей простой системы. Сложная система, разработанная с нуля, никогда не работает, и её невозможно исправить так, чтобы она заработала. Нужно начать заново, с простой работающей системы.
 >
-> ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
+> _[John Gall (en)](https://en.wikipedia.org/wiki/John_Gall_(author))_
 
-Gall's Law implies that attempts to _design_ highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
+Закон подразумевает, что попытки _спроектировать_ высокосложные системы, скорее всего, потерпят неудачу. Высокосложные системы редко строятся за один раз, чаще всего они развиваются из более простых систем.
 
-The classic example is the world-wide-web. In its current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
+Классический пример — всемирная сеть. В своем нынешнем состоянии это очень сложная система. Однако изначально она создавалась как простой способ обмена контентом между академическими учреждениями. на очень успешно справилась с этими целями и со временем эволюционировала, становясь все более сложной.
 
 См. также:
 
