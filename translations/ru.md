@@ -25,9 +25,9 @@
     - [Закон Хика / Закон Хика — Хаймана)](#закон-хика--закон-хика--хаймана)
     - [Закон Хофштадтера](#закон-хофштадтера)
     - [Закон Хатбера](#закон-хатбера)
-    - [Цикл хайпа / Закон Амара](#цикл-хайпа--закон-амара))
+    - [Цикл хайпа / Закон Амара](#цикл-хайпа--закон-амара)
     - [Закон Хайрама / Закон неявных интерфейсов)](#закон-хайрама--закон-неявных-интерфейсов)
-    - [Модель вход-процесс-выход (IPO)](#модель-вход-процесс-выход-ipo))
+    - [Модель вход-процесс-выход (IPO)](#модель-вход-процесс-выход-ipo)
     - [Закон Кернигана](#закон-кернигана)
     - [Закон Куми](#закон-куми)
     - [Закон Линуса](#закон-линуса)
@@ -151,11 +151,11 @@
 
 - [Технический долг](#TODO)
 
-Examples:
+Примеры:
 
-- [The Pragmatic Programming: Software Entropy](https://flylib.com/books/en/1.315.1.15/1/)
-- [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
-- [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [The Pragmatic Programming: Software Entropy (en)](https://flylib.com/books/en/1.315.1.15/1/)
+- [Coding Horror: The Broken Window Theory (en)](https://blog.codinghorror.com/the-broken-window-theory/)
+- [OpenSource: Joy of Programming - The Broken Window Theory (en)](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### Закон Брукса
 
@@ -175,6 +175,8 @@ Examples:
 - [Литература: Мифический человеко-месяц](#литература)
 
 ### Теорема CAP / Теорема Брюера
+
+[Теорема CAP на Википедии](https://ru.wikipedia.org/wiki/Теорема_CAP)
 
 Теорема CAP (определенная Эриком Брюэром) утверждает, что в любой реализации распределенного хранилища данных возможно обеспечить не более двух из трёх следующих свойств:
 
