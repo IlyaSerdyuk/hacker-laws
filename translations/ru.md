@@ -296,27 +296,29 @@
 
 ### Закон Гудхарта
 
-[The Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
+[Закон Гудхарта на Википедии](https://ru.wikipedia.org/wiki/Закон_Гудхарта)
 
-> Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+> Любая наблюдаемая статистическая закономерность склонна разрушаться, если на нее оказывается давление с целью контроля.
 >
-> _Charles Goodhart_
+> _[Чарльз Гудхарт](https://ru.wikipedia.org/wiki/Гудхарт,_Чарльз)_
 
-Also commonly referenced as:
+Также часто упоминается как:
 
-> When a measure becomes a target, it ceases to be a good measure.
+> Когда мера становится целью, она перестает быть хорошей мерой.
 >
-> _Marilyn Strathern_
+> _[Мэрилин Стратерн](https://ru.wikipedia.org/wiki/Стратерн,_Мэрилин)_
 
-The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to holistic outcome of their actions.
+Закон гласит, что оптимизация на основе измерений может привести к обесцениванию самого результата измерений. Чрезмерно избирательный набор показателей ([KPIs](https://ru.wikipedia.org/wiki/Ключевые_показатели_эффективности)), слепо применяемый к процессу, приводит к искажениям. Люди склонны оптимизировать процесс локально, «обманывая» систему, чтобы достич конкретных метрик, вместо того, чтобы обращать внимание на глобальный результат своих действий.
 
-Real-world examples:
-- Assert-free tests satisfy the code coverage expectation, despite the fact that the metric intent was to create well-tested software.
-- Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
+Примеры из жизни:
 
-See also:
-- [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
-- [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
+- Тесты без утверждений удовлетворяют ожиданиям по покрытию кода, несмотря на то, что целью метрики было создание хорошо протестированного программного обеспечения.
+- Оценка эффективности разработчика на основе количества строк, внесённых в проект, приводит к неоправданному раздуванию кода.
+
+См. также:
+
+- [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour (en)](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [Dilbert on bug-free software (en)](https://dilbert.com/strip/1995-11-13)
 
 ### Бритва Хэнлона
 
