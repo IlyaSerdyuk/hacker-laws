@@ -176,21 +176,21 @@ Examples:
 
 ### Теорема CAP / Теорема Брюера
 
-The CAP Theorem (defined by Eric Brewer) states that for a distributed data store only two out of the following three guarantees (at most) can be made:
+Теорема CAP (определенная Эриком Брюэром) утверждает, что в любой реализации распределенного хранилища данных возможно обеспечить не более двух из трёх следующих свойств:
 
-- Consistency: when reading data, every request receives the _most recent_ data or an error is returned
-- Availability: when reading data, every request receives _a non error response_, without the guarantee that it is the _most recent_ data
-- Partition Tolerance: when an arbitrary number of network requests between nodes fail, the system continues to operate as expected
+- согласованность (англ. consistency) – при чтении данных каждый запрос получает _самые последние_ данные, либо возвращается ошибка;
+- доступность (англ. availability) - любой запрос на чтение данных получает _ответ без ошибок_, однако без гарантии, что это _самые последние_ данные;
+- устойчивость к фрагментации (англ. partition tolerance) – при сбое произвольного количества сетевых запросов между узлами система продолжает работать так, как и ожидалось.
 
-The core of the reasoning is as follows. It is impossible to guarantee that a network partition will not occur (see [The Fallacies of Distributed Computing](#заблуждения-о-распределённых-вычислениях)). Therefore in the case of a partition we can either cancel the operation (increasing consistency and decreasing availability) or proceed (increasing availability but decreasing consistency).
+Суть рассуждений такова. Невозможно гарантировать, что разделение сети не произойдет (см. [Заблуждения распределенных вычислений](#заблуждения-о-распределённых-вычислениях)). Поэтому в случае разделения мы можем либо отменить операцию (увеличив согласованность и уменьшив доступность), либо продолжить (увеличив доступность, но уменьшив согласованность).
 
-The name comes from the first letters of the guarantees (Consistency, Availability, Partition Tolerance). Note that it is very important to be aware that this does _not_ relate to [_ACID_](#TODO), which has a different definition of consistency. More recently, [PACELC](#TODO) theorem has been developed which adds constraints for latency and consistency when the network is _not_ partitioned (i.e. when the system is operating as expected).
+Название происходит от первых букв гарантий (Consistency, Availability, Partition Tolerance). Обратите внимание, что это _не_ относится к [_ACID_](#TODO), который имеет другое определение согласованности. Совсем недавно была разработана теорема [PACELC](#TODO), которая добавляет ограничения для задержки и согласованности, когда сеть _не_ разделена (т.е. когда система работает так, как и ожидалось).
 
-Most modern database platforms acknowledge this theorem implicitly by offering the user of the database the option to choose between whether they want a highly available operation (which might include a 'dirty read') or a highly consistent operation (for example a 'quorum acknowledged write').
+Большинство современных систем управления базами данных неявно признают эту теорему, предлагая пользователю базы данных возможность выбора между высокодоступной операцией (которая может включать «грязное чтение») и высокопоследовательной операцией (например, «запись с подтверждением кворума»).
 
-Real world examples:
+Примеры из жизни:
 
-- [Inside Google Cloud Spanner and the CAP Theorem](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - Goes into the details of how Cloud Spanner works, which appears at first to seem like a platform which has _all_ of the guarantees of CAP, but under the hood is essentially a CP system.
+- [Inside Google Cloud Spanner and the CAP Theorem (en)](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - Подробно описывается принцип работы Cloud Spanner, который на первый взгляд может показаться платформой, обладающей _всеми_ гарантиями CAP, но на самом деле по сути представляет собой систему CP.
 
 См. также:
 
