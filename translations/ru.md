@@ -236,11 +236,11 @@
 
 ### Число Данбара
 
-[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[Число Данбара на Википедии](https://ru.wikipedia.org/wiki/Число_Данбара)
 
-"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+«Число Данбара — предполагаемое когнитивное ограничение на количество человек, с которыми можно поддерживать стабильные социальные отношения — отношения, в которых человек знает, кто каждый человек и как каждый человек относится к каждому другому человеку». Существуют некоторые разногласия по поводу точного числа. «... [Данбар] предположил, что люди могут комфортно поддерживать только 150 стабильных отношений». Он поместил это число в более социальный контекст, «число людей, к которым вы не смутитесь присоединиться без приглашения, чтобы выпить, если вы случайно столкнетесь с ними в баре». Оценки этого числа обычно лежат в диапазоне от 100 до 250.
 
-Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects, we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+Как и стабильные отношения между людьми, отношения разработчика с кодовой базой требуют усилий для поддержки. Когда мы сталкиваемся с большими сложными проектами или ведем множество проектов, мы опираемся на соглашения, политику и смоделированную процедуру масштабирования. Число Данбара вважно принимать во внимание не только по мере роста офиса, но и при определении размера команды или принятии решения о том, когда система должна инвестировать в инструменты для помощи в моделировании и автоматизации логистических издержек. В инженерном контексте число указывает на количество проектов (или нормализованная сложность одного проекта), для которых вы бы с уверенностью вошли в дежурную команду поддержки.
 
 См. также:
 
