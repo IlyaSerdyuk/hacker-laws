@@ -159,15 +159,15 @@ Examples:
 
 ### Закон Брукса
 
-[Brooks' Law on Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[Закон Брукса на Википедии (en)](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
-> Adding human resources to a late software development project makes it later.
+> Если проект не укладывается в сроки, то добавление рабочей силы задержит его ещё больше
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp-up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+Закон говорит о том, что во многих случаях попытки ускорить выпуск проекта, который уже опаздывает, путём добавления к нему дополнительных людей, приводит к тому, что проект задерживается еще больше. Брукс подчеркивает, что это чрезмерное упрощение проблемы. Однако общее обоснование заключается в том, что с учетом времени подключения новых ресурсов и издержек коммуникации в краткосрочной перспективе скорость снижается. Кроме того, многие задачи могут быть неделимы, т.е. их не удастся легко распределить между большим количеством ресурсов, что означает, что потенциальное увеличение скорости оказывается не таким значительным.
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+Распространённое фраза «Девять женщин не смогут родить ребенка за один месяц» относится к закону Брукса, в частности потому, что некоторые виды работ нельзя разделить или распараллелить.
 
-This is a central theme of the book '[The Mythical Man Month](#литература)'.
+Это главная тема книги «[Мифический человеко-месяц](#литература)».
 
 См. также:
 
