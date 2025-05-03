@@ -214,9 +214,9 @@
 
 ### Закон Конвея
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+[Закон Конвея на Википедии](https://ru.wikipedia.org/wiki/Закон_Конвея)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are oriented around features or services, the software systems will also reflect this.
+Закон говорит о том, что технические рамки проектируемой системы будут отражать структуру организации. Его часто вспоминают в контексте улучшения организации. Согласно этому закон, если организация разделена на множество небольших, не связанных между собой команд, то и производимое ею ПО будет разделено подобным образом. Если организация больше построена вокруг «вертикалей», ориентированных на функции или услуги, то программные системы также будут отражать это.
 
 См. также:
 
