@@ -386,7 +386,7 @@
 
 > We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
 >
-> (Roy Amara)
+> _Roy Amara_
 
 The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
 
@@ -404,8 +404,7 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 > all observable behaviours of your system
 > will be depended on by somebody.
 >
-> (Hyrum Wright)
-
+> _Hyrum Wright_
 
 См. также:
 
@@ -434,7 +433,7 @@ The IPO pattern is present in different forms across almost all technological do
 
 > Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
 >
-> (Brian Kernighan)
+> _Brian Kernighan_
 
 Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) and derived from a quote from Kernighan and Plauger's book [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
@@ -454,7 +453,7 @@ While hyperbolic, Kernighan's Law makes the argument that simple code is to be p
 
 > ...at a fixed computing load, the amount of battery you need will fall by a factor of two every year and a half.
 >
-> (Jonathan Koomey)
+> _Jonathan Koomey_
 
 In 2010 Professor Jonathan Koomey discovered that the trend in number of computations per joule of energy dissipated had been remarkably stable. This trend became known as Koomey's Law - that the amount of battery needed for a given computing load would half each 2.5 years.
 
@@ -533,7 +532,7 @@ These 'laws' are generally used in a comic sense. However, phenomena such as [_C
 
 > Entities should not be multiplied without necessity.
 >
-> William of Ockham
+> _William of Ockham_
 
 Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
 
@@ -565,7 +564,7 @@ In its original context, this Law was based on studies of bureaucracies. It may 
 
 > Premature optimization is the root of all evil.
 >
-> [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
+> _[Donald Knuth](https://twitter.com/realdonaldknuth?lang=en)_
 
 
 However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
@@ -608,7 +607,7 @@ This law is based on graph theory, where the utility scales as the number of pos
 
 > The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
 >
-> Richard S. Sutton (2019)
+> _Richard S. Sutton (2019)_
 
 The "Bitter Lesson", stated by [Rich S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton), says that scale (in terms of both data and computational power) has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
 
@@ -652,7 +651,7 @@ Following this principal limits the scope of changes, making them easier and saf
 
 > All non-trivial abstractions, to some degree, are leaky.
 >
-> ([Joel Spolsky](https://twitter.com/spolsky))
+> _[Joel Spolsky](https://twitter.com/spolsky)_
 
 This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
 
@@ -712,7 +711,7 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 > Always leave the code better than you found it.
 >
-> (Robert C. Martin (Uncle Bob))
+> _Robert C. Martin (Uncle Bob)_
 
 Based on the "Scout Rule", which is "always leave the campground cleaner than you found it", the Scout Rule in programming is simply "always leave the code cleaner than you found it".
 
@@ -740,7 +739,7 @@ Members of the organisation have described that the actual meaning of these grou
 
 > If you can't feed a team with two pizzas, it's too large.
 >
-> (Jeff Bezos)
+> _Jeff Bezos_
 
 This rule suggests that regardless of the size of the company, teams should be small enough to be fed by two pizzas. Attributed to Jeff Bezos and Amazon, this belief suggests that large teams are inherently inefficient. This is supported by the fact that as the team size increases linearly, the links between people increases quadratically; thus the cost of coordinating and communicating also grows quadratically. If this cost of coordination is essentially overhead, then smaller teams should be preferred.
 
@@ -1071,7 +1070,7 @@ The principle is best exemplified by the story of Johnson handing a team of desi
 
 > Always implement things when you actually need them, never when you just foresee that you need them.
 >
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
+> _[Ron Jeffries](https://twitter.com/RonJeffries) (XP co-founder and author of the book "Extreme Programming Installed")_
 
 This _Extreme Programming_ (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
 
@@ -1113,7 +1112,7 @@ See also:
 
 > People are part of the system. The design should match the user's experience, expectations, and mental models.
 >
-> Frans Kaashoek
+> _Frans Kaashoek_
 
 This principle proposes that systems and interfaces should be designed in a way that features and functionality is easily discovered and matches users expectations. Features that 'surprise' users should be discouraged in favour of features that can be intuitively reasoned about based on existing patterns and practices.
 
