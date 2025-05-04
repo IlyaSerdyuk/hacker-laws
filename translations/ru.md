@@ -322,13 +322,13 @@
 
 ### Бритва Хэнлона
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Бритва Хэнлона на Википедии](https://ru.wikipedia.org/wiki/Бритва_Хэнлона)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Никогда не приписывайте злому умыслу то, что вполне можно объяснить глупостью.
 >
-> Robert J. Hanlon
+> _Роберт Дж. Хэнлон_
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Принцип утверждает, что действия, приведшие к негативному результату, могли производиться не с дурными намерениями. Негативный результат с большей вероятностью объясняется тем, что эти действия и их последствия недостаточно хорошо были поняты.
 
 ### Закон Хика / Закон Хика — Хаймана
 
