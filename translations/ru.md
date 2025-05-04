@@ -382,7 +382,7 @@
 
 ### Цикл хайпа / Закон Амара
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+[Цикл хайпа на Википедии](https://ru.wikipedia.org/wiki/Gartner#Цикл_хайпа)
 
 > We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
 >
@@ -397,7 +397,7 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 
 ### Закон Хайрама / Закон неявных интерфейсов
 
-[Hyrum's Law Online](http://www.hyrumslaw.com/)
+[Сайт закона Хайрама (en)](http://www.hyrumslaw.com)
 
 > With a sufficient number of users of an API,
 > it does not matter what you promise in the contract:
@@ -413,7 +413,7 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 
 ### Модель вход-процесс-выход (IPO)
 
-[Input–Process–Output on Wikipedia](https://en.wikipedia.org/wiki/IPO_model)
+[Модель вход-процесс-выход на Википедии (en)](https://en.wikipedia.org/wiki/IPO_model)
 
 Systems can be incredibly complex, but can typically be broken down into smaller parts that follow a simple pattern:
 
@@ -449,7 +449,7 @@ While hyperbolic, Kernighan's Law makes the argument that simple code is to be p
 
 ### Закон Куми
 
-[Koomey's Law on Wikipedia](https://en.wikipedia.org/wiki/Koomey%27s_law)
+[Закон Куми на Википедии (en)](https://en.wikipedia.org/wiki/Koomey%27s_law)
 
 > ...at a fixed computing load, the amount of battery you need will fall by a factor of two every year and a half.
 >
@@ -462,11 +462,11 @@ Koomey performed a follow-up analysis in 2010 and found that this trend had slow
 См. также:
 
 - [Закон Мура](#закон-мура)
-- [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling)
+- [Закон масштабирования Деннарда](https://ru.wikipedia.org/wiki/Закон_масштабирования_Деннарда)
 
 ### Закон Линуса
 
-[Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
+[Закон Линуса на Википедии](https://ru.wikipedia.org/wiki/Закон_Линуса)
 
 > Given enough eyeballs, all bugs are shallow.
 >
@@ -484,7 +484,7 @@ This law was named in honour of [Linus Torvalds](https://en.wikipedia.org/wiki/L
 
 ### Закон Меткалфа
 
-[Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
+[Закон Меткалфа на Википедии](https://ru.wikipedia.org/wiki/Закон_Меткалфа)
 
 > In network theory, the value of a system grows as approximately the square of the number of users of the system.
 
@@ -497,7 +497,7 @@ This law is based on the number of possible pairwise connections within a system
 
 ### Закон Мура
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Закон Мура на Википедии](https://ru.wikipedia.org/wiki/Закон_Мура)
 
 > The number of transistors in an integrated circuit doubles approximately every two years.
 
@@ -509,7 +509,7 @@ Often used to illustrate the sheer speed at which semiconductor and chip technol
 
 ### Закон Мерфи / Закон подлости
 
-[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+[Закон Мерфи на Википедии](https://ru.wikipedia.org/wiki/Закон_Мерфи)
 
 > Anything that can go wrong will go wrong.
 
@@ -528,7 +528,7 @@ These 'laws' are generally used in a comic sense. However, phenomena such as [_C
 
 ### Бритва Оккама
 
-[Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
+[Бритва Оккама на Википедии](https://ru.wikipedia.org/wiki/Бритва_Оккама)
 
 > Entities should not be multiplied without necessity.
 >
@@ -547,7 +547,7 @@ Example:
 
 ### Закон Паркинсона
 
-[Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+[Закон Паркинсона на Википедии](https://ru.wikipedia.org/wiki/Законы_Паркинсона)
 
 > Work expands so as to fill the time available for its completion.
 
@@ -560,7 +560,7 @@ In its original context, this Law was based on studies of bureaucracies. It may 
 
 ### Преждевременная оптимизация
 
-[Premature Optimization on WikiWeb](http://wiki.c2.com/?PrematureOptimization)
+[Преждевременная оптимизация на WikiWeb (en)](http://wiki.c2.com/?PrematureOptimization)
 
 > Premature optimization is the root of all evil.
 >
@@ -571,7 +571,7 @@ However, _Premature Optimization_ can be defined (in less loaded terms) as optim
 
 ### Закон Патта
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+[Закон Патта на Википедии (en)](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
 > Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
 
@@ -590,7 +590,7 @@ However, it should be stressed that Laws such as this are vast generalisations a
 
 ### Закон Рида
 
-[Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
+[Закон Рида на Википедии (en)](https://en.wikipedia.org/wiki/Reed's_law)
 
 > The utility of large networks, particularly social networks, scales exponentially with the size of the network.
 
@@ -603,7 +603,7 @@ This law is based on graph theory, where the utility scales as the number of pos
 
 ### Горький урок Ричарда Саттона
 
-[The Bitter Lesson by Richard S. Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+[Горький урок Ричарда Саттона (en)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
 > The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
 >
@@ -615,7 +615,7 @@ He goes on to suggest that this indicates we should stop trying to build simplif
 
 ### Эффект Рингельмана
 
-[The Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
+[Эффект Рингельмана на Википедии](https://ru.wikipedia.org/wiki/Эффект_Рингельмана)
 
 The Ringelmann Effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including loss of motivation ("[social loafing](https://en.wikipedia.org/wiki/Social_loafing)") and challenges related to coordination.
 
@@ -625,7 +625,7 @@ The Ringelmann Effect is the tendency of an individual to become increasingly in
 
 ### Закон сохранения сложности / Закон Теслера
 
-[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+[Закон сохранения сложности на Википедии (en)](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
 This law states that there is a certain amount of complexity in a system which cannot be reduced.
 
@@ -635,7 +635,7 @@ One interesting element to this law is the suggestion that even by simplifying t
 
 ### Закон Деметры
 
-[The Law of Demeter on Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
+[Закон Деметры на Википедии](https://ru.wikipedia.org/wiki/Закон_Деметры)
 
 > Don't talk to strangers.
 
@@ -647,7 +647,7 @@ Following this principal limits the scope of changes, making them easier and saf
 
 ### Закон дырявых абстракций
 
-[The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+[Закон дырявых абстракций на сайте Joel on Software (en)](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions)
 
 > All non-trivial abstractions, to some degree, are leaky.
 >
@@ -670,7 +670,7 @@ Real-world examples:
 
 ### Закон инструмента / Закон молотка / Золотой молоток / Молоток Маслоу
 
-[The Law of the Instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)
+[Золотой молоток на Википедии](https://ru.wikipedia.org/wiki/Золотой_молоток)
 
 > I call it the law of the instrument, and it may be formulated as follows: Give a small boy a hammer, and he will find that everything he encounters needs pounding.
 >
@@ -689,7 +689,7 @@ See also:
 
 ### Закон тривиальности
 
-[The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+[Закон тривиальности на Википедии](https://ru.wikipedia.org/wiki/Закон_тривиальности)
 
 This law suggests that groups will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
 
@@ -699,7 +699,7 @@ The fictional example above led to the usage of the term 'Bike Shedding' as an e
 
 ### Философия Unix
 
-[The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
+[Философия Unix на Википедии](https://ru.wikipedia.org/wiki/Философия_Unix)
 
 The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well-defined units, rather than using large, complex, multi-purpose programs.
 
@@ -707,7 +707,7 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 ### Правило бойскаута
 
-[The Scout Rule on O'Reilly](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
+[Правило бойскаута на сайте O'Reilly (en)](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 
 > Always leave the code better than you found it.
 >
@@ -727,7 +727,7 @@ https://www.amazon.sg/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 
 ### Модель Spotify
 
-[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+[Модель Spotify на сайте Spotify Labs (en)](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1)
 
 The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
 
@@ -749,7 +749,7 @@ The number of links between people can be expressed as `n(n-1)/2` where n = numb
 
 ### Закон Тваймана
 
-[Twyman's Law on Wikipedia](https://en.wikipedia.org/wiki/Twyman%27s_law)
+[Закон Тваймана на Википедии (en)](https://en.wikipedia.org/wiki/Twyman%27s_law)
 
 > The more unusual or interesting the data, the more likely they are to have been the result of an error of one kind or another.
 
@@ -761,7 +761,7 @@ This law suggests that when there are particularly unusual data points, it is mo
 
 ### Закон Уодлера
 
-[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+[Закон Уодлера на wiki.haskell.org (en)](https://wiki.haskell.org/Wadler's_Law)
 
 > In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
 >
@@ -780,9 +780,9 @@ Similar to [The Law of Triviality](#закон-тривиальности), Wadl
 
 ### Закон Уитона
 
-[The Link](http://www.wheatonslaw.com/)
+[Сайт закона Уитона (en)](http://www.wheatonslaw.com)
 
-[The Official Day](https://dontbeadickday.com/)
+[Официальный сайт «дня не будь придурком»](https://dontbeadickday.com)
 
 > Don't be a dick.
 >
@@ -796,7 +796,7 @@ Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), thi
 
 ### Все модели неверны / Закон Джорджа Бокса
 
-[All Models Are Wrong](https://en.wikipedia.org/wiki/All_models_are_wrong)
+[Все модели неверны на Википедии (en)](https://en.wikipedia.org/wiki/All_models_are_wrong)
 
 > All models are wrong, but some are useful.
 >
@@ -812,7 +812,7 @@ A fundamental requirement of most software is to model a system of some kind. Re
 
 ### Забор Честертона
 
-[Chesterton's Fence on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
+[Забор Честертона на Википедии (en)](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
 
 > Reforms should not be made until the reasoning behind the existing state of affairs is understood.
 
@@ -822,7 +822,7 @@ The name of this principle comes from a story by [G.K. Chesterton](https://en.wi
 
 ### Принцип Керкгоффса
 
-[Kerckhoffs's principle on Wikipedia](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+[Принцип Керкгоффса на Википедии](https://ru.wikipedia.org/wiki/Принцип_Керкгоффса)
 
 > "...design your system assuming that your opponents know it in detail."
 >
@@ -840,7 +840,7 @@ The history of cryptography has shown that open discussion and analysis of crypt
 
 ### Эффект Мёртвого моря
 
-[The Dead Sea Effect on Bruce F. Webster](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
+[Эффект Мёртвого моря на сайте Брюса Ф. Вебстера (en)](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect)
 
 > "... [T]he more talented and effective IT engineers are the ones most likely to leave - to evaporate ... [those who tend to] remain behind [are] the 'residue' — the least talented and effective IT engineers."
 >
@@ -852,7 +852,7 @@ Typically, highly skilled engineers find it easy to gain employment elsewhere an
 
 ### Принцип Дилберта
 
-[The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
+[Принцип Дилберта на Википедии (en)](https://en.wikipedia.org/wiki/Dilbert_principle)
 
 > Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
 >
@@ -867,7 +867,7 @@ A management concept developed by Scott Adams (creator of the Dilbert comic stri
 
 ### Закон Парето / Правило 80/20
 
-[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Закон Парето на Википедии](https://ru.wikipedia.org/wiki/Закон_Парето)
 
 > Most things in life are not distributed evenly.
 
@@ -889,7 +889,7 @@ Real-world examples:
 
 ### Принцип Ширки
 
-[The Shirky Principle explained](https://kk.org/thetechnium/the-shirky-prin/)
+[Принцип Ширки на сайте Кевина Келли (en)](https://kk.org/thetechnium/the-shirky-prin)
 
 > Institutions will try to preserve the problem to which they are the solution.
 >
@@ -908,7 +908,7 @@ Related to:
 
 ### Принцип Питера
 
-[The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
+[Принцип Питера на Википедии](https://ru.wikipedia.org/wiki/Принцип_Питера)
 
 > People in a hierarchy tend to rise to their "level of incompetence".
 >
@@ -925,7 +925,7 @@ This is of particular interest to engineers - who initially start out in deeply 
 
 ### Принцип надежности / Закон Постела
 
-[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+[Принцип надежности на Википедии (en)](https://en.wikipedia.org/wiki/Robustness_principle)
 
 > Be conservative in what you do, be liberal in what you accept from others.
 
@@ -948,7 +948,7 @@ These are key principles in [Object-Oriented Programming](#todo). Design princip
 
 ### Принцип единственной ответственности
 
-[The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+[Принцип единственной ответственности на Википедии](https://ru.wikipedia.org/wiki/Принцип_единственной_ответственности)
 
 > Every module or class should have a single responsibility only.
 
@@ -963,7 +963,7 @@ Theoretically, this should make the code more robust, and easier to change. Know
 
 ### Принцип открытости/закрытости
 
-[The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+[Принцип открытости/закрытости на Википедии](https://ru.wikipedia.org/wiki/Принцип_открытости/закрытости)
 
 > Entities should be open for extension and closed for modification.
 
@@ -980,7 +980,7 @@ This principle has particular relevance for object-oriented programming, where w
 
 ### Принцип подстановки Лисков
 
-[The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Принцип подстановки Лисков на Википедии](https://ru.wikipedia.org/wiki/Принцип_подстановки_Лисков)
 
 > It should be possible to replace a type with a subtype, without breaking the system.
 
@@ -997,7 +997,7 @@ This principle has particular relevance for object-oriented programming, where t
 
 ### Принцип разделения интерфейса
 
-[The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+[Принцип разделения интерфейса на Википедии](https://ru.wikipedia.org/wiki/Принцип_разделения_интерфейса)
 
 > No client should be forced to depend on methods it does not use.
 
@@ -1016,7 +1016,7 @@ This principle has particular relevance for object-oriented programming, where i
 
 ### Принцип инверсии зависимостей
 
-[The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[Принцип инверсии зависимостей на Википедии](https://en.wikipedia.org/wiki/Принцип_инверсии_зависимостей)
 
 > High-level modules should not be dependent on low-level implementations.
 
@@ -1035,7 +1035,7 @@ This principle is complex, as it can seem to 'invert' the expected dependencies 
 
 ### DRY / Принцип «не повторяйся»
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[DRY на Википедии](https://ru.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
 > Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
@@ -1051,7 +1051,7 @@ See also:
 
 ### Принцип KISS
 
-[KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
+[KISS на Википедии](https://ru.wikipedia.org/wiki/KISS_(принцип))
 
 > Keep it simple, stupid
 
@@ -1065,7 +1065,7 @@ The principle is best exemplified by the story of Johnson handing a team of desi
 
 ### YAGNI
 
-[YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
+[YAGNI на Википедии](https://ru.wikipedia.org/wiki/YAGNI)
 
 
 > Always implement things when you actually need them, never when you just foresee that you need them.
@@ -1082,7 +1082,7 @@ Adhering to this principle should reduce the amount of unused code in the codeba
 
 ### Заблуждения о распределённых вычислениях
 
-[The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+[Заблуждения о распределённых вычислениях на Википедии](https://ru.wikipedia.org/wiki/Заблуждения_о_распределённых_вычислениях)
 
 Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, which can lead to failures in software development. The assumptions are:
 
@@ -1108,7 +1108,7 @@ See also:
 
 ### Принцип наименьшего удивления
 
-[The Principle of Least Astonishment on Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
+[Принцип наименьшего удивления на Википедии](https://ru.wikipedia.org/wiki/Правило_наименьшего_удивления)
 
 > People are part of the system. The design should match the user's experience, expectations, and mental models.
 >
