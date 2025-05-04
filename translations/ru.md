@@ -128,7 +128,7 @@
 
 Диаграмма ниже демонстрирует примеры потенциального увеличения скорости:
 
-<img width="480px" alt="Диаграмма: Закон Амдала" src="../images/ru/amdahls_law.svg" />
+![Диаграмма: Закон Амдала](../images/ru/amdahls_law.svg)
 
 Как можно видеть, программа с возможностью распараллеливания на 50% принесет очень мало пользы при использовании 10 процессоров, тогда как программа с возможностью распараллеливания на 95% может достичь значительного повышения скорости при использовании более тысячи процессоров.
 
@@ -153,9 +153,9 @@
 
 Примеры:
 
-- [The Pragmatic Programming: Software Entropy (en)](https://flylib.com/books/en/1.315.1.15/1/)
-- [Coding Horror: The Broken Window Theory (en)](https://blog.codinghorror.com/the-broken-window-theory/)
-- [OpenSource: Joy of Programming - The Broken Window Theory (en)](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [The Pragmatic Programming: Software Entropy (en)](https://flylib.com/books/en/1.315.1.15/1)
+- [Coding Horror: The Broken Window Theory (en)](https://blog.codinghorror.com/the-broken-window-theory)
+- [OpenSource: Joy of Programming - The Broken Window Theory (en)](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory)
 
 ### Закон Брукса
 
@@ -232,7 +232,7 @@
 
 См. также:
 
-- [XKCD 386: "Duty Calls" (en)](https://xkcd.com/386/)
+- [XKCD 386: "Duty Calls" (en)](https://xkcd.com/386)
 
 ### Число Данбара
 
@@ -245,7 +245,6 @@
 См. также:
 
 - [Закон Конвея](#закон-конвея)
-
 
 ### Эффект Даннинга — Крюгера
 
@@ -267,8 +266,7 @@
 
 Закон утверждает, что время движения к цели прямо пропорционально расстоянию до цели, и обратно пропорционально ширине цели.
 
-<img width="300px" alt="Диаграмма: Закон Фиттса" src="../images/ru/Fitts_Law.svg" />
-
+![Диаграмма: Закон Фиттса](../images/ru/Fitts_Law.svg)
 
 Из закона следует, что при при проектировании пользовательского опыта (UX) или интерфейса (UI) интерактивные элементы должны быть как можно больше, а расстояние между областью внимания пользователя и такими элементами — как можно меньше. Это влияет на дизайнерские решения, например, требует группировать часто используемые вместе задачи и располагать их рядом.
 
@@ -317,7 +315,7 @@
 
 См. также:
 
-- [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour (en)](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour (en)](https://coffeeandjunk.com/goodharts-campbells-law)
 - [Dilbert on bug-free software (en)](https://dilbert.com/strip/1995-11-13)
 
 ### Бритва Хэнлона
@@ -392,7 +390,6 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 ![The Hype Cycle](../images/gartner_hype_cycle.png)
 
-
 In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
 
 ### Закон Хайрама / Закон неявных интерфейсов
@@ -409,7 +406,7 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 См. также:
 
 - [Закон дырявых абстракций](#закон-дырявых-абстракций)
-- [XKCD 1172](https://xkcd.com/1172/)
+- [XKCD 1172](https://xkcd.com/1172)
 
 ### Модель вход-процесс-выход (IPO)
 
@@ -553,7 +550,6 @@ Example:
 
 In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
 
-
 См. также:
 
 - [Закон Хофштадтера](#закон-хофштадтера)
@@ -565,7 +561,6 @@ In its original context, this Law was based on studies of bureaucracies. It may 
 > Premature optimization is the root of all evil.
 >
 > _[Donald Knuth](https://twitter.com/realdonaldknuth?lang=en)_
-
 
 However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
 
@@ -655,7 +650,6 @@ Following this principal limits the scope of changes, making them easier and saf
 
 This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
 
-
 The example above can become more complex when _more_ abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
 
 The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
@@ -684,7 +678,7 @@ In the context of computer programming, this law suggests that people tend to us
 
 See also:
 
-- [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument/)
+- [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument)
 - [Anti-Pattern - The Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
 
 ### Закон тривиальности
@@ -745,7 +739,7 @@ This rule suggests that regardless of the size of the company, teams should be s
 
 The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
 
-<img width="200px" alt="Complete graph; Links between people" src="../images/complete_graph.png" />
+![Complete graph; Links between people](../images/complete_graph.png)
 
 ### Закон Тваймана
 
@@ -943,7 +937,6 @@ Allowing non-conformant input, in time, may undermine the ability of protocols t
 
 This is an acronym, which refers to:
 
-
 These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
 
 ### Принцип единственной ответственности
@@ -1067,7 +1060,6 @@ The principle is best exemplified by the story of Johnson handing a team of desi
 
 [YAGNI на Википедии](https://ru.wikipedia.org/wiki/YAGNI)
 
-
 > Always implement things when you actually need them, never when you just foresee that you need them.
 >
 > _[Ron Jeffries](https://twitter.com/RonJeffries) (XP co-founder and author of the book "Extreme Programming Installed")_
@@ -1103,8 +1095,7 @@ These fallacies should be considered carefully when designing code which is resi
 
 See also:
 
-- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
- on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium (en)](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 
 ### Принцип наименьшего удивления
 
