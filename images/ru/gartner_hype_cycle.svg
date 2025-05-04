@@ -1,0 +1,23 @@
+<svg xmlns:ns1="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable-background="new 0 0 558.661 363.471" overflow="visible" viewBox="0 0 558.661 363.471" height="363.471" width="558.661" id="Layer_1" version="1.1" xmlns:bx="https://boxy-svg.com">
+  <defs id="defs1106">
+    <bx:export>
+      <bx:file format="svg"></bx:file>
+    </bx:export>
+  </defs>
+  <g id="g1099">
+    <path id="path833" d="M12.967,349.469c15.107-87.283,25.932-180.142,54.214-264.61    c31.17-93.095,54.138,17.688,65.096,53.934c11.354,37.558,23.177,74.976,34.309,112.6c26.534,89.679,79.275-25.286,92.183-45.57    c11.749-18.462,20.938-43.699,69.798-48.289c70.298-6.604,177.054-4.848,224.858-5.774" stroke-width="5" stroke="#ED1C24" fill="none"></path>
+    <text style="fill: rgb(0, 142, 175); font-family: Arial, sans-serif; font-weight: 700; text-transform: uppercase; white-space: pre;" x="488.296" y="341.236">Время</text>
+    <g id="g1065" style="" transform="matrix(1, 0, 0, 1.025036, 0, -9.099855)">
+      <polyline id="polyline1059" points="6.097 19.698 6.097 356.339 495.469 356.339 549.608 356.339" stroke-width="3" stroke="#008EAF" fill="none"></polyline>
+      <path id="path1061" d="M558.661,356.339c-4.26,1.581-9.545,4.277-12.82,7.132l2.58-7.132l-2.58-7.132     C549.116,352.062,554.401,354.759,558.661,356.339z" fill="#008EAF"></path>
+      <polygon id="polygon1063" points="6.097,9.107 12.194,24.032 6.097,20.49 0,24.032    " fill="#008EAF"></polygon>
+    </g>
+    <text style="white-space: pre; fill: none; stroke: rgb(0, 142, 175); stroke-width: 3px; font-size: 16px;" x="495.758" y="319.438"> </text>
+    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; white-space: pre;" x="23.484" y="344.387">Технологический триггер</text>
+  </g>
+  <text style="fill: rgb(0, 142, 175); font-family: Arial, sans-serif; font-weight: 700; text-transform: uppercase; white-space: pre; font-size: 16px;" x="17.68" y="27.093">Интерес</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; white-space: pre;" x="263.763" y="232.718">Преодоление недостатков</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; white-space: pre;" x="308.968" y="139.11">Плато продуктивности</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; white-space: pre;" x="117.422" y="59.212">Пик чрезмерных ожиданий</text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; white-space: pre;" x="153.12" y="310.839">Избавление от иллюзий</text>
+</svg>

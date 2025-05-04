@@ -382,15 +382,15 @@
 
 [Цикл хайпа на Википедии](https://ru.wikipedia.org/wiki/Gartner#Цикл_хайпа)
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+> Мы склонны переоценивать влияние технологии в краткосрочной перспективе и недооценивать его в долгосрочной.
 >
-> _Roy Amara_
+> _Рой Амара_
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
+Цикл шумихи – визуализация динамики ожиданий и развития технологий с течением времени, первоначально разработанное компанией Gartner. Наиболее наглядно его можно продемонстрировать с помощью графика:
 
-![The Hype Cycle](../images/gartner_hype_cycle.png)
+![График: Цикл хайпа Gartner](../images/ru/gartner_hype_cycle.svg)
 
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+Если коротко, этот цикл показывает, что вокруг новых технологий обычно возникает волна ажиотажа и завышенных ожиданий. Команды часто спешат их внедрить, но затем сталкиваются с разочарованием — либо потому что технология ещё не созрела, либо потому что её практическое применение ещё не до конца понятно. Со временем возможности технологии развиваются, появляются реальные варианты использования, и только тогда начинается продуктивная работа. Лучше всего это резюмирует фраза Роя Амары: «Мы склонны переоценивать влияние технологии в краткосрочной перспективе и недооценивать в долгосрочной».
 
 ### Закон Хайрама / Закон неявных интерфейсов
 
