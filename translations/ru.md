@@ -396,17 +396,14 @@
 
 [Сайт закона Хайрама (en)](http://www.hyrumslaw.com)
 
-> With a sufficient number of users of an API,
-> it does not matter what you promise in the contract:
-> all observable behaviours of your system
-> will be depended on by somebody.
+> При достаточном количестве пользователей API не имеет значения, что вы обещали в документации — кто-то обязательно начнёт зависеть от любого наблюдаемого поведения вашей системы.
 >
-> _Hyrum Wright_
+> _[Хайрам Райт (en)](https://www.hyrumwright.org/)_
 
 См. также:
 
 - [Закон дырявых абстракций](#закон-дырявых-абстракций)
-- [XKCD 1172](https://xkcd.com/1172)
+- [XKCD 1172 (en)](https://xkcd.com/1172)
 
 ### Модель вход-процесс-выход (IPO)
 
