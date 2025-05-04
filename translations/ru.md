@@ -354,15 +354,15 @@
 
 ### Закон Хофштадтера
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Закон Хофштадтера на Википедии (en)](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> Любое дело всегда длится дольше, чем ожидается, даже если учесть закон Хофштадтера.
 >
-> (Douglas Hofstadter)
+> _[Дуглас Хофштадтер](https://ru.wikipedia.org/wiki/Хофштадтер,_Дуглас)_
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Закон часто упоминается при оценке времени выполнения задач. В разработке программного обеспечения давно известно, что мы обычно плохо справляемся с точной оценкой сроков реализации.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#литература)'.
+Упоминается в книге «[Гёдель, Эшер, Бах: эта бесконечная гирлянда](#литература)».
 
 См. также:
 
