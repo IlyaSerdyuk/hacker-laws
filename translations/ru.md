@@ -332,22 +332,21 @@
 
 ### Закон Хика / Закон Хика — Хаймана
 
-[Hick's law on Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
+[Закон Хика (Закон Хика — Хаймана) на Википедии (en)](https://en.wikipedia.org/wiki/Hick%27s_law)
 
-> Decision time grows logarithmically with the number of options you can choose from.
+> Время принятия решения увеличивается логарифмически с ростом количества доступных вариантов.
 >
-> William Edmund Hick and Ray Hyman
+> _Уильям Эдмунд Хик и Рэя Хайман_
 
-In the equation below, `T` is the time to make a decision, `n` is the number of options, and `b` is a constant which is determined by analysis of the data.
+В приведённом ниже уравнении `T` — это время принятия решения, `n` — количество вариантов выбора, а `b` — константа, определяемая на основе анализа данных.
 
-![Hicks law](./images/hicks_law.svg)
+![Hicks law](../images/hicks_law.svg)
 
+Этот закон применим только в случае, когда варианты выбора _упорядочены_ (например, по алфавиту). Это подразумевается в логарифме по основанию два — это означает, что принимающий решение, по сути, выполняет _бинарный поиск_. Если варианты не упорядочены, эксперименты показывают, что время принятия решения становится линейным.
 
-This law only applies when the number of options is _ordered_, for example, alphabetically. This is implied in the base two logarithm - which implies the decision maker is essentially performing a _binary search_. If the options are not well ordered, experiments show the time taken is linear.
+Это имеет важное значение для дизайна пользовательского интерфейса: обеспечение удобного поиска среди вариантов позволяет ускорить принятие решений.
 
-This is has significant impact in UI design; ensuring that users can easily search through options leads to faster decision making.
-
-A correlation has also been shown in Hick's Law between IQ and reaction time as shown in [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369).
+В законе Хика также показана корреляция между IQ и временем реакции, как показано в исследовании [Скорость обработки информации: изменения в процессе развития и связь с интеллектом (en)](https://www.sciencedirect.com/science/article/pii/S0022440599000369).
 
 См. также:
 
