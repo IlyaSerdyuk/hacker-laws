@@ -128,7 +128,7 @@
 
 Диаграмма ниже демонстрирует примеры потенциального увеличения скорости:
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../images/ru/amdahls_law.svg" />
+<img width="480px" alt="Диаграмма: Закон Амдала" src="../images/ru/amdahls_law.svg" />
 
 Как можно видеть, программа с возможностью распараллеливания на 50% принесет очень мало пользы при использовании 10 процессоров, тогда как программа с возможностью распараллеливания на 95% может достичь значительного повышения скорости при использовании более тысячи процессоров.
 
@@ -284,7 +284,7 @@
 
 > Работающая сложная система свегда происходит из работавшей простой системы. Сложная система, разработанная с нуля, никогда не работает, и её невозможно исправить так, чтобы она заработала. Нужно начать заново, с простой работающей системы.
 >
-> _[John Gall (en)](https://en.wikipedia.org/wiki/John_Gall_(author))_
+> _[Джон Галл (en)](https://en.wikipedia.org/wiki/John_Gall_(author))_
 
 Закон подразумевает, что попытки _спроектировать_ высокосложные системы, скорее всего, потерпят неудачу. Высокосложные системы редко строятся за один раз, чаще всего они развиваются из более простых систем.
 
@@ -391,7 +391,7 @@ For example, a decrease in response latency for a particular end-point could cau
 
 The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+![The Hype Cycle](../images/gartner_hype_cycle.png)
 
 
 In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
@@ -747,7 +747,7 @@ This rule suggests that regardless of the size of the company, teams should be s
 
 The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
 
-<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+<img width="200px" alt="Complete graph; Links between people" src="../images/complete_graph.png" />
 
 ### Закон Тваймана
 
@@ -1126,22 +1126,22 @@ Many examples are present in user interfaces, such as a 'pull down' gesture on a
 
 ## Литература
 
-Если эти концепции показались вам интересными, вам могут понравиться следующие книги.
+Если эти концепции показались вам интересными, вам могут понравиться следующие книги:
 
-- [Чистый код. Создание, анализ и рефакторинг - Роберт Мартин](https://www.piter.com/product/chistyy-kod-sozdanie-analiz-i-refaktoring-biblioteka-programmista-45ccca) - Одна из самых уважаемых книг о том, как писать чистый и удобный для поддержки код.
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson (en)](https://www.goodreads.com/en/book/show/67834) - Охватывает основные принципы экстремального программирования.
-- [Гёдель, Эшер, Бах: эта бесконечная гирлянда - Дуглас Хофштадтер](https://www.livelib.ru/book/1000005849-gedel-esher-bah-eta-beskonechnaya-girlyanda-daglas-hofshtadter) - Эту книгу трудно классифицировать. [Закон Хофштадтера](#закон-хофштадтера) из этой книги.
-- [Структура и Интерпретация Компьютерных Программ - Харольд Абельсон, Джеральд Джей Сассман, Джули Сассман](https://www.livelib.ru/book/1000799728-struktura-i-interpretatsiya-kompyuternyh-programm-dzhuli-sassman) - Если вы были студентом факультета компьютерных наук или электротехники в Массачусетском технологическом институте или Кембридже, это было вашим введением в программирование. Широко известно, что это был поворотный момент в жизни многих людей.
-- [Собор и Базар - Эрик Стивен Реймонд](https://www.livelib.ru/work/1000216789-sobor-i-bazar-erik-s-rejmond) - Сборник эссе об открытом исходном коде. [Закон Линуса](#закон-линуса) из этой книги.
-- [The Dilbert Principle - Scott Adams (en)](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Юмористический взгляд на корпоративную Америку от автора [принципа Дилберта](#принцип-дилберта).
-- [Мифический человеко-месяц, или Как создаются программные системы - Фредерик Брукс мл.](https://www.piter.com/product/mificheskiy-cheloveko-mesyats-ili-kak-sozdayutsya-programmnye-sistemy) - Классический труд по программной инженерии. [Закон Брукса](#закон-брукса) является центральной темой книги.
-- [Принцип Питера, или Почему дела всегда идут вкривь и вкось - Лоуренс Джонстон Питер, Реймонд Халл](https://azbooka.ru/books/printsip-pitera-ili-pochemy-dela-vsegda-idyt-vkriv-i-vkos) - Еще один юмористический взгляд на проблемы крупных организаций и управления людьми, источник принципа [Принцип Питера](#принцип-питера).
+- [Чистый код. Создание, анализ и рефакторинг – Роберт Мартин](https://www.piter.com/product/chistyy-kod-sozdanie-analiz-i-refaktoring-biblioteka-programmista-45ccca) – одна из самых уважаемых книг о том, как писать чистый и удобный для поддержки код.
+- [Extreme Programming Installed – Ron Jeffries, Ann Anderson, Chet Hendrikson (en)](https://www.goodreads.com/en/book/show/67834) – охватывает основные принципы экстремального программирования.
+- [Гёдель, Эшер, Бах: эта бесконечная гирлянда – Дуглас Хофштадтер](https://www.livelib.ru/book/1000005849-gedel-esher-bah-eta-beskonechnaya-girlyanda-daglas-hofshtadter) – эту книгу трудно классифицировать. [Закон Хофштадтера](#закон-хофштадтера) из этой книги.
+- [Структура и Интерпретация Компьютерных Программ – Харольд Абельсон, Джеральд Джей Сассман, Джули Сассман](https://www.livelib.ru/book/1000799728-struktura-i-interpretatsiya-kompyuternyh-programm-dzhuli-sassman) – если вы были студентом факультета компьютерных наук или электротехники в Массачусетском технологическом институте или Кембридже, это было вашим введением в программирование. Широко известно, что это был поворотный момент в жизни многих людей.
+- [Собор и Базар – Эрик Стивен Реймонд](https://www.livelib.ru/work/1000216789-sobor-i-bazar-erik-s-rejmond) – сборник эссе об открытом исходном коде. [Закон Линуса](#закон-линуса) из этой книги.
+- [The Dilbert Principle – Scott Adams (en)](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) – юмористический взгляд на корпоративную Америку от автора [принципа Дилберта](#принцип-дилберта).
+- [Мифический человеко-месяц, или Как создаются программные системы – Фредерик Брукс мл.](https://www.piter.com/product/mificheskiy-cheloveko-mesyats-ili-kak-sozdayutsya-programmnye-sistemy) – классический труд по программной инженерии. [Закон Брукса](#закон-брукса) является центральной темой книги.
+- [Принцип Питера, или Почему дела всегда идут вкривь и вкось – Лоуренс Джонстон Питер, Реймонд Халл](https://azbooka.ru/books/printsip-pitera-ili-pochemy-dela-vsegda-idyt-vkriv-i-vkos) – еще один юмористический взгляд на проблемы крупных организаций и управления людьми, источник принципа [Принцип Питера](#принцип-питера).
 
 ## Онлайн ресурсы
 
 Некоторые полезные ресурсы и материалы для чтения.
 
-- [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, & More (en)](https://www.cbinsights.com/research/report/tech-laws-success-failure) - интересное описание некоторых законов, оказавших большое влияние на технологии.
+- [CB Insights: 8 законов, ведущих к успеху в технологиях: правило «двух пицц» Amazon, принцип 80/20 и другие (en)](https://www.cbinsights.com/research/report/tech-laws-success-failure) – интересное описание некоторых законов, оказавших большое влияние на технологии.
 
 ## PDF версия
 
@@ -1151,8 +1151,7 @@ Many examples are present in user interfaces, such as a 'pull down' gesture on a
 
 ## Подкаст
 
-Hacker Laws был представлен в подкасте [The Changelog](https://changelog.com/podcast/403).
-Вы можете ознакомиться с эпизодом по ссылке ниже:
+Hacker Laws был представлен в подкасте [The Changelog (en)](https://changelog.com/podcast/403). Вы можете ознакомиться с эпизодом по ссылке ниже:
 
-<a href="https://changelog.com/podcast/403" target="_blank"><img src="./images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
+<a href="https://changelog.com/podcast/403" target="_blank"><img src="../images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
 
