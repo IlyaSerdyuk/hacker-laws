@@ -409,15 +409,15 @@
 
 [Модель вход-процесс-выход на Википедии (en)](https://en.wikipedia.org/wiki/IPO_model)
 
-Systems can be incredibly complex, but can typically be broken down into smaller parts that follow a simple pattern:
+Системы могут быть невероятно сложными, но обычно их можно разбить на более мелкие части, работающие по простой схеме:
 
-1. Input is provided
-2. Some kind of processing or transformation is performed
-3. Output is returned
+1. получение входных данных (Input).
+2. выполнение обработки или преобразования (Processing),
+3. возврат результата (Output).
 
-A sort function in a programming language or system could be a classic example of the IPO pattern; where arbitrary input is sorted based on a predicate and returned back. A web server could be modelled as an IPO system, where HTTP requests are transformed into HTTP responses. A highly complex Generative AI system could likewise be modelled in this way, with user input being passed through a complex model and a response being generated.
+Классическим примером паттерна IPO может служить функция сортировки, которая принимает произвольные входные данные, упорядочивает их по заданному условию и возвращает результат. Этот же принцип применим к веб-серверам (преобразование HTTP-запросов в ответы) и даже к сложным генеративным ИИ-системам, где пользовательский ввод обрабатывается сложной моделью для формирования ответа.
 
-The IPO pattern is present in different forms across almost all technological domains, from [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages that explicitly follow IPO patterns to [The Unix Philosophy](#философия-unix), which suggests that highly complex systems can be built by chaining together many simple IPO programs.
+Модель IPO существует в разных воплощениях практически во всех технологических сферах. Она явно прослеживается в [функциональных языках программирования](https://ru.wikipedia.org/wiki/Функциональное_программирование) и лежит в основе [философии Unix](#философия-unix), согласно которой сложные системы следует строить путем комбинирования множества простых программ, работающих по принципу «ввод-обработка-вывод».
 
 См. также:
 
