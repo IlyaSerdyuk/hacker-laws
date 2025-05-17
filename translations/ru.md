@@ -543,9 +543,9 @@
 
 [Закон Паркинсона на Википедии](https://ru.wikipedia.org/wiki/Законы_Паркинсона)
 
-> Work expands so as to fill the time available for its completion.
+> Работа заполняет всё время, отпущенное на её выполнение.
 
-In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
+В оригинальном контексте этот закон был основан на исследованиях бюрократии. Однако его можно пессимистично применить и к разработке программного обеспечения: согласно этой теории, команды работают неэффективно вплоть до приближения дедлайна, а затем начинают спешно завершать задачи, что делает сам срок сдачи в значительной степени условным.
 
 См. также:
 
