@@ -425,15 +425,15 @@
 
 ### Закон Кернигана
 
-> Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+> Отладка кода в два раза тяжелее, чем его написание. Поэтому, если вы пишете код на пределе своих умственных возможностей, вам не хватит ума, чтобы его отладить.
 >
-> _Brian Kernighan_
+> _[Брайан Керниган](https://ru.wikipedia.org/wiki/Керниган,_Брайан)_
 
-Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) and derived from a quote from Kernighan and Plauger's book [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
+Закон Кернигана назван в честь [Брайана Кернигана](https://ru.wikipedia.org/wiki/Керниган,_Брайан), который сформулировал его в совместной с П.Д. Плогером в книге [Элементы стиля программирования](https://rusneb.ru/catalog/000200_000018_rc_892612):
 
-> Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
+> Все знают, что отладка программы вдвое сложнее её написания. Так как же вы сможете её отладить, если написали на пределе своей сообразительности?
 
-While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
+Хотя и звучит преувеличением, закон Кернигана утверждает: простой код предпочтительнее сложного, поскольку отладка проблем в сложном коде может быть дорогостоящей или даже невозможной.
 
 См. также:
 
