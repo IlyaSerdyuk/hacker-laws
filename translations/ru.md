@@ -493,9 +493,9 @@
 
 [Закон Мура на Википедии](https://ru.wikipedia.org/wiki/Закон_Мура)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> Количество транзисторов в интегральной схеме удваивается примерно каждые два года.
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+Прогноз Мура, часто используемый для иллюстрации стремительного прогресса в развитии полупроводниковых технологий и микрочипов, демонстрировал удивительную точность с 1970-х до конца 2000-х годов. В последнее время эта тенденция несколько изменилась, отчасти из-за [физических ограничений на дальнейшую миниатюризацию компонентов](https://ru.wikipedia.org/wiki/Туннельный_эффект). Однако достижения в области параллельных вычислений и потенциально революционные изменения в полупроводниковых технологиях и квантовых вычислениях могут означать, что закон Мура останется актуальным в течение ближайших десятилетий.
 
 См. также:
 
