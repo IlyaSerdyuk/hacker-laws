@@ -445,13 +445,13 @@
 
 [Закон Куми на Википедии (en)](https://en.wikipedia.org/wiki/Koomey%27s_law)
 
-> ...at a fixed computing load, the amount of battery you need will fall by a factor of two every year and a half.
+> ...при одной и той же вычислительной нагрузке объем необходимой вам батареи будет уменьшаться в два раза каждые полтора года.
 >
-> _Jonathan Koomey_
+> _[Джонатан Куми (en)](https://en.wikipedia.org/wiki/Jonathan_Koomey)_
 
-In 2010 Professor Jonathan Koomey discovered that the trend in number of computations per joule of energy dissipated had been remarkably stable. This trend became known as Koomey's Law - that the amount of battery needed for a given computing load would half each 2.5 years.
+В 2010 году профессор Джонатан Куми обнаружил, что тенденция роста количества вычислений на джоуль затрачиваемой энергии оставалась удивительно стабильной. Эта закономерность стала известна как закон Куми — ёмкость аккумулятора, необходимая для заданной вычислительной нагрузки, уменьшается вдвое каждые 2,5 года.
 
-Koomey performed a follow-up analysis in 2010 and found that this trend had slowed, similar to how [Moore's Law](#закон-мура) had slowed. This seemed to be related to limitations around how small transistors can be made, as well as [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling).
+В последующем анализе 2020 года Куми выявил замедление этой тенденции, аналогичное замедлению [закона Мур](#закон-мура). Это связано с фундаментальными физическими ограничениями на минимальный размер транзисторов и прекращением [масштабирования Деннарда](https://ru.wikipedia.org/wiki/Закон_масштабирования_Деннарда).
 
 См. также:
 
