@@ -462,19 +462,19 @@
 
 [Закон Линуса на Википедии](https://ru.wikipedia.org/wiki/Закон_Линуса)
 
-> Given enough eyeballs, all bugs are shallow.
+> Чем больше людей смотрят код — тем проще найти ошибки
 >
-> _Eric S. Raymond_
+> _[Эрик С. Рэймонд](https://ru.wikipedia.org/wiki/Реймонд,_Эрик_Стивен)_
 
-This law simply states that the more people who can see a problem, the higher the likelihood that someone will have seen and solved the problem before, or something very similar.
+Этот закон утверждает, что чем больше людей видят проблему, тем выше вероятность, что кто-то уже сталкивался с подобным и нашёл решение.
 
-Although it was originally used to describe the value of open-source models for projects it can be accepted for any kind of software project. It can also be extended to processes - more code reviews, more static analysis and multi-disciplined test processes will make the problems more visible and easy to identify.
+Хотя изначально он описывал преимущества open-source разработки, он применим к любым программным проектам. Его можно расширить и на процессы: дополнительные код-ревью, статический анализ и междисциплинарное тестирование делают проблемы более заметными и легко идентифицируемыми.
 
-A more formal statement can be:
+Более формальное утверждение может быть таким:
 
-> Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and can be solved by someone who has encountered a similar problem before.
+> При достаточно большой базе бета-тестеров и соразработчиков практически любая проблема будет быстро идентифицирована и может быть решена кем-то, кто уже сталкивался с аналогичной задачей ранее.
 
-This law was named in honour of [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in Eric S. Raymond's book "[The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)".
+Этот закон был назван в честь [Линуса Торвальдса](https://ru.wikipedia.org/wiki/Торвальдс,_Линус) в книге Эрика С. Рэймонда «[Собор и Базар](https://ru.wikipedia.org/wiki/Собор_и_Базар)».
 
 ### Закон Меткалфа
 
