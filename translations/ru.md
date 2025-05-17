@@ -524,20 +524,20 @@
 
 [Бритва Оккама на Википедии](https://ru.wikipedia.org/wiki/Бритва_Оккама)
 
-> Entities should not be multiplied without necessity.
+> Не следует привлекать новые сущности без крайней на то необходимости
 >
-> _William of Ockham_
+> _[Уильям Оккам](https://ru.wikipedia.org/wiki/Оккам,_Уильям)_
 
-Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
+Бритва Оккама гласит, что среди нескольких возможных решений наиболее вероятным является то, которое содержит наименьшее количество концепций и допущений. Это решение — самое простое и решает исключительно поставленную задачу, не внося побочной сложности и потенциальных негативных последствий.
 
-See also:
+См. также:
 
 - [YAGNI](#yagni)
-- [No Silver Bullet: Accidental Complexity and Essential Complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)
+- [Серебряной пули нет: побочная и объективная сложности](https://ru.wikipedia.org/wiki/Серебряной_пули_нет)
 
-Example:
+Примеры:
 
-- [Lean Software Development: Eliminate Waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
+- [Бережливая разработка ПО: Устранение потерь](https://ru.wikipedia.org/wiki/Бережливая_разработка_программного_обеспечения)
 
 ### Закон Паркинсона
 
