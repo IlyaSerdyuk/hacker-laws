@@ -555,11 +555,11 @@
 
 [Преждевременная оптимизация на WikiWeb (en)](http://wiki.c2.com/?PrematureOptimization)
 
-> Premature optimization is the root of all evil.
+> Преждевременная оптимизация — корень всех зол.
 >
-> _[Donald Knuth](https://twitter.com/realdonaldknuth?lang=en)_
+> _[Дональд Кнут](https://ru.wikipedia.org/wiki/Кнут,_Дональд_Эрвин)_
 
-However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
+Преждевременная оптимизация — это оптимизация до того, как стало ясно, что она действительно необходима.
 
 ### Закон Патта
 
