@@ -505,15 +505,15 @@
 
 [Закон Мерфи на Википедии](https://ru.wikipedia.org/wiki/Закон_Мерфи)
 
-> Anything that can go wrong will go wrong.
+> Если что-то может пойти не так, оно обязательно пойдет не так.
 
-Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Murphy's Law_ states that if a thing can go wrong, it will go wrong.
+Закон Мерфи, сформулированный [Эдвардом А. Мерфи-младший](https://ru.wikipedia.org/wiki/Мёрфи,_Эдвард), гласит, что если что-то может пойти не так, оно обязательно пойдет не так.
 
-This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) _Sod's Law_:
+Это распространенная поговорка среди разработчиков: неожиданные сбои происходят на этапах разработки, тестирования и даже в продакшене. Схожий смысл имеет (более распространенный в британском английском) _Закон подлости_:
 
-> If something can go wrong, it will, at the worst possible time.
+> Если что-то может пойти не так, оно пойдёт не так в самый неподходящий момент.
 
-These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
+Хотя эти «законы» обычно упоминаются в юмористическом смысле, такие когнитивные искажения как _Предвзятость подтверждения_ и _Систематическая ошибка отбора_ заставляют людей переоценивать их значимость. В действительности большинство успешных операций остаются незамеченными, тогда как неудачи привлекают повышенное внимание и активнее обсуждаются.
 
 См. также:
 
