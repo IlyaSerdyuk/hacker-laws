@@ -480,9 +480,9 @@
 
 [Закон Меткалфа на Википедии](https://ru.wikipedia.org/wiki/Закон_Меткалфа)
 
-> In network theory, the value of a system grows as approximately the square of the number of users of the system.
+> В теории сетей ценность системы растёт приблизительно пропорционально квадрату числа её пользователей.
 
-This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#закон-рида). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#число-данбара).
+Данный закон основан на количестве возможных парных соединений в системе и тесно связан с [законом Рида](#закон-рида). Однако, как отмечают Одлызко и другие исследователи, как закон Рида, так и закон Меткалфа преувеличивают ценность системы, не учитывая ограничения человеческого познания на сетевые эффекты.
 
 См. также:
 
