@@ -609,7 +609,7 @@
 
 [Эффект Рингельмана на Википедии](https://ru.wikipedia.org/wiki/Эффект_Рингельмана)
 
-The Ringelmann Effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including loss of motivation ("[social loafing](https://en.wikipedia.org/wiki/Social_loafing)") and challenges related to coordination.
+Эффект Рингельмана — это тенденция к снижению индивидуальной эффективности по мере увеличения числа участников задачи. Другими словами, чем больше людей в команде, тем ниже средняя производительность каждого. Считается, что здесь действуют несколько факторов, включая потерю мотивации («[социальную леность](https://ru.wikipedia.org/wiki/Социальная_леность)») и проблемы координации.
 
 См. также:
 
