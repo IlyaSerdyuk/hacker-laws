@@ -584,9 +584,9 @@
 
 [Закон Рида на Википедии (en)](https://en.wikipedia.org/wiki/Reed's_law)
 
-> The utility of large networks, particularly social networks, scales exponentially with the size of the network.
+> Полезность крупных сетей (особенно социальных) растёт экспоненциально с увеличением размера сети.
 
-This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#число-данбара).
+Этот закон основан на теории графов, где полезность сети растёт пропорционально количеству возможных подгрупп — что даёт более быстрый рост, чем просто увеличение числа участников или возможных парных связей. Однако, как отмечают [Одлызко (en)](https://en.wikipedia.org/wiki/Andrew_Odlyzko#Network_value) и другие исследователи, закон Рида переоценивает полезность системы, поскольку не учитывает когнитивные ограничения человека при работе с сетевыми эффектами.
 
 См. также:
 
