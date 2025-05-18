@@ -597,13 +597,13 @@
 
 [Горький урок Ричарда Саттона (en)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-> The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
+> Самый важный вывод за 70 лет исследований искусственного интеллекта: универсальные методы, использующие вычислительные мощности, в итоге оказываются наиболее эффективными — и с огромным отрывом.
 >
-> _Richard S. Sutton (2019)_
+> _[Ричард Саттон](https://ru.wikipedia.org/wiki/Саттон,_Ричард_(учёный)) (2019)_
 
-The "Bitter Lesson", stated by [Rich S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton), says that scale (in terms of both data and computational power) has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
+«Горький урок», изложенный [Ричем Саттоном](https://ru.wikipedia.org/wiki/Саттон,_Ричард_(учёный), гласит, что к наиболее значительным достижениям в исследовании ИИ привел масштаб (как с точки зрения данных, так и вычислительной мощности), а не сложность самих методов исследования.
 
-He goes on to suggest that this indicates we should stop trying to build simplified (or even complex) models of the mind as history has shown that these have always in the long term been failures compared to (as an example) scaling the capacity of neural networks and applying existing methods such as convolution.
+Он утверждает, что это означает необходимость прекратить попытки создания — даже самых сложных — моделей человеческого мышления, поскольку история показывает: в долгосрочной перспективе они неизменно проигрывают простому масштабированию нейросетей и применению уже существующих методов, таких как свёрточные слои.
 
 ### Эффект Рингельмана
 
