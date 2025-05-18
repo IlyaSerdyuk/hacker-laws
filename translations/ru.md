@@ -639,25 +639,24 @@
 
 ### Закон дырявых абстракций
 
-[Закон дырявых абстракций на сайте Joel on Software (en)](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions)
+[Закон дырявых абстракций в блоге «Джоэл о программном обеспечении» (en)](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions)
 
-> All non-trivial abstractions, to some degree, are leaky.
+> Все нетривиальные абстракции в той или иной степени дают протечки.
 >
-> _[Joel Spolsky](https://twitter.com/spolsky)_
+> _[Джоэл Спольски](https://ru.wikipedia.org/wiki/Спольски,_Джоэл)_
 
-This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
+Этот закон гласит, что абстракции, которые обычно используются в программировании для упрощения работы со сложными системами, в определённых ситуациях «пропускают» детали базовой системы («протекают»), что приводит к неожиданному поведению.
 
-The example above can become more complex when _more_ abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
+Пример становится сложнее, когда добавляются _дополнительные_ абстракции. Операционная система Linux позволяет обращаться к сетевым файлам как к «обычным» локальным файлам. Однако эта абстракция «даёт утечку» при возникновении сетевых сбоев. Если разработчик обрабатывает такие файлы как обычные, не учитывая возможные сетевые задержки и сбои, это неизбежно приводит к появлению ошибок.
 
-The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
-
+В статье, описывающей этот закон, утверждается, что чрезмерная зависимость от абстракций в сочетании со слабым пониманием базовых механизмов в некоторых случаях лишь усложняет решение проблемы.
 См. также:
 
 - [Закон Хайрама / Закон неявных интерфейсов)](#закон-хайрама--закон-неявных-интерфейсов)
 
-Real-world examples:
+Примеры из жизни:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- Раньше я сталкивался с тем, что [Photoshop запускался очень медленно (en)](https://forums.adobe.com/thread/376152) — иногда по несколько минут. Похоже, проблема была в том, что при запуске он загружает данные о текущем принтере по умолчанию. Если это сетевой принтер, а соединение нестабильное, процесс может занимать крайне много времени. _Абстракция_, представляющая сетевой принтер системе как локальный, привела к сбоям в условиях плохого соединения.
 
 ### Закон инструмента / Закон молотка / Золотой молоток / Молоток Маслоу
 
