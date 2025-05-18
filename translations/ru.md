@@ -565,15 +565,15 @@
 
 [Закон Патта на Википедии (en)](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+> В технологическом секторе доминируют два типа людей: те, кто понимает то, чем не управляет, и те, кто управляет тем, чего не понимает.
 
-Putt's Law is often followed by Putt's Corollary:
+Закон Патта часто сопровождается следствием Патта:
 
-> Every technical hierarchy, in time, develops a competence inversion.
+> В любой технической иерархии со временем возникает инверсия компетенций.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#принцип-питера) or [The Dilbert Principle](#принцип-дилберта).
+Эти утверждения предполагают, что из-за различных критериев отбора и тенденций в организации групп, в технических компаниях будет много квалифицированных специалистов на рабочих должностях и много руководителей, не осознающих сложности и вызовы работы, которой они управляют. Это может быть связано с такими явлениями, как [Принцип Питера](#принцип-питера) или [Принцип Дилберта](#принцип-дилберта).
 
-However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
+Однако важно подчеркнуть, что подобные законы — это очень широкие обобщения. Они могут примениться к _одним_ типам организаций, но не работать в других.
 
 См. также:
 
